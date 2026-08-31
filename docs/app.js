@@ -31,8 +31,8 @@
 
   const recall = (t, h) => Math.pow(2, -t / h);
 
-  el("nReviews").textContent =
-    ((results.train_reviews + results.test_reviews) / 1e6).toFixed(1) + " million";
+  el("nReviews").textContent = (results.train_reviews / 1e6).toFixed(1) + " million";
+  el("nTest").textContent = (results.test_reviews / 1e6).toFixed(1) + " million";
 
   const items = model.lexemes.filter((l) => l.text && /^[\p{L}'-]+$/u.test(l.text)).slice(0, 220);
   el("item").innerHTML = items

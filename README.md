@@ -1,7 +1,10 @@
 # Half-Life
 
 **When will you forget this?** Flashcard apps answer with a fixed rule — get it right, wait twice
-as long. This fits the decay to 12.9 million real reviews instead, and schedules from that.
+as long. This fits the decay to real review logs instead, and schedules from that.
+
+Trained on 10,243,562 reviews and scored on 1,279,602 from learners held out entirely, drawn from
+the 12.9-million-review Duolingo learning-traces release.
 
 Live demo: https://hyunsikparker.github.io/half-life/
 
