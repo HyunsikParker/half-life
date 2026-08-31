@@ -1,0 +1,2 @@
+# Standard library only. This file exists so `pip install -r requirements.txt` is a no-op
+# rather than an error; the code imports nothing outside Python's standard library.

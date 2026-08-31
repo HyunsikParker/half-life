@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Half-Life — when you'll forget this</title>
+<style>
+:root{
+  --bg:#faf8f4; --panel:#fff; --line:#e4ded3; --ink:#1c1a17; --dim:#6f675c;
+  --learned:#c2410c; --fixed:#0369a1; --warn:#b45309;
+  --font:ui-sans-serif,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  --mono:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme:dark){
+  :root{--bg:#14120f;--panel:#1d1a16;--line:#332e27;--ink:#f0ece5;--dim:#a29a8c;
+        --learned:#fb923c;--fixed:#38bdf8;--warn:#fbbf24}
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--font);line-height:1.6}
+.wrap{max-width:900px;margin:0 auto;padding:44px 22px 72px}
+h1{font-size:clamp(30px,6vw,46px);line-height:1.05;margin:0 0 10px;letter-spacing:-.025em}
+.sub{color:var(--dim);font-size:18px;max-width:60ch;margin:0 0 30px}
+h2{font-size:19px;margin:44px 0 10px;letter-spacing:-.01em}
+.panel{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:22px}
+label{display:block;font-size:13px;color:var(--dim);margin:0 0 6px}
+select,input[type=range]{width:100%}
+select{padding:10px;border:1px solid var(--line);border-radius:9px;background:var(--bg);
+  color:var(--ink);font:inherit;font-size:15px}
+input[type=range]{accent-color:var(--learned)}
+.controls{display:grid;grid-template-columns:1fr;gap:16px}
+@media(min-width:640px){.controls{grid-template-columns:2fr 1fr 1fr}}
+.val{font-family:var(--mono);font-size:13px;color:var(--ink)}
+.verdict{margin-top:22px;padding-top:20px;border-top:1px solid var(--line);
+  display:grid;grid-template-columns:1fr;gap:16px}
+@media(min-width:640px){.verdict{grid-template-columns:1fr 1fr}}
+.card{border:1px solid var(--line);border-radius:11px;padding:16px}
+.card.learned{border-color:var(--learned)}
+.card h3{margin:0 0 4px;font-size:13px;font-weight:600;letter-spacing:.02em;text-transform:uppercase}
+.card.learned h3{color:var(--learned)} .card.fixed h3{color:var(--fixed)}
+.card .v{font-family:var(--mono);font-size:27px;line-height:1.2}
+.card .n{font-size:13px;color:var(--dim);margin-top:6px}
+svg{width:100%;height:270px;display:block;margin-top:6px}
+.legend{display:flex;gap:18px;flex-wrap:wrap;font-size:13px;color:var(--dim);margin-top:4px}
+.dot{display:inline-block;width:9px;height:9px;border-radius:50%;margin-right:6px}
+table{width:100%;border-collapse:collapse;font-size:14px;margin-top:8px}
+th,td{text-align:right;padding:9px 8px;border-bottom:1px solid var(--line)}
+th:first-child,td:first-child{text-align:left}
+th{color:var(--dim);font-weight:600}
+td.num{font-family:var(--mono)}
+tr.best td{font-weight:700}
+p{color:var(--dim)}
+footer{margin-top:52px;padding-top:20px;border-top:1px solid var(--line);font-size:13px;color:var(--dim)}
+a{color:var(--learned)}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<h1>When will you forget this?</h1>
+<p class="sub">Flashcard apps schedule reviews with a fixed rule: get it right, wait twice as long.
+But how fast a thing fades depends on the thing and on you. This model learned that decay from
+<b id="nReviews">12.9 million</b> real reviews, and it schedules accordingly.</p>
+
+<div class="panel">
+  <div class="controls">
+    <div>
+      <label for="item">Something you are learning</label>
+      <select id="item"></select>
+    </div>
+    <div>
+      <label for="right">Times you recalled it — <span class="val" id="rightVal">4</span></label>
+      <input type="range" id="right" min="0" max="20" value="4">
+    </div>
+    <div>
+      <label for="wrong">Times you forgot it — <span class="val" id="wrongVal">1</span></label>
+      <input type="range" id="wrong" min="0" max="20" value="1">
+    </div>
+  </div>
+
+  <svg id="chart" viewBox="0 0 720 270" preserveAspectRatio="none" role="img"
+       aria-label="Predicted recall probability over time"></svg>
+  <div class="legend">
+    <span><i class="dot" style="background:var(--learned)"></i>learned decay curve</span>
+    <span><i class="dot" style="background:var(--fixed)"></i>when Leitner would review you</span>
+    <span><i class="dot" style="background:var(--warn)"></i>when the model would review you (90% recall)</span>
+  </div>
+
+  <div class="verdict">
+    <div class="card learned">
+      <h3>Learned half-life</h3>
+      <div class="v" id="hlrHalf">—</div>
+      <div class="n" id="hlrNote">the point where you are as likely to forget it as recall it</div>
+    </div>
+    <div class="card fixed">
+      <h3>Leitner would wait</h3>
+      <div class="v" id="leitnerWait">—</div>
+      <div class="n" id="leitnerNote"></div>
+    </div>
+  </div>
+</div>
+
+<h2>Does the learned schedule actually predict better?</h2>
+<p>Held out by learner — no person's reviews appear in both training and test data, so nothing is
+scored on someone the model has already met. Lower error is better.</p>
+<div class="panel"><table id="results"></table></div>
+
+<footer>
+  <p>Half-life regression after Settles &amp; Meeder, <i>A Trainable Spaced Repetition Model for
+  Language Learning</i>, ACL 2016. Data: the Duolingo learning-traces release
+  (<a href="https://doi.org/10.7910/DVN/N8XJME">doi:10.7910/DVN/N8XJME</a>), CC BY 4.0 —
+  downloaded at build time, not redistributed here.</p>
+  <p>Everything on this page runs in the browser from a small weight file. No server, no API key.</p>
+</footer>
+
+</div>
+<script src="app.js"></script>
+</body>
+</html>

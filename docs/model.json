@@ -1,0 +1,2807 @@
+{
+ "right": -0.03511124947857005,
+ "wrong": -0.10512184880562428,
+ "bias": 7.5366425685943454,
+ "lexemes": [
+  {
+   "id": "827a8ecb89f9b59ac5c29b620a5d3ed6",
+   "text": "a",
+   "tag": "a/a<det><ind><sg>",
+   "weight": -0.38352724411561473,
+   "reviews": 123099
+  },
+  {
+   "id": "97e922f780d628eac638bea7a02bf496",
+   "text": "is",
+   "tag": "is/be<vbser><pri><p3><sg>",
+   "weight": -0.17401445135396754,
+   "reviews": 97738
+  },
+  {
+   "id": "928787744a962cd4ec55c1b22cedc913",
+   "text": "eats",
+   "tag": "eats/eat<vblex><pri><p3><sg>",
+   "weight": -0.4435910319900946,
+   "reviews": 91640
+  },
+  {
+   "id": "b968b069e4e2c04848e9f8924e34c031",
+   "text": "we",
+   "tag": "we/prpers<prn><subj><p1><mf><pl>",
+   "weight": -0.04422498993064864,
+   "reviews": 74614
+  },
+  {
+   "id": "a617ed646a251e339738ce62b84e61ce",
+   "text": "are",
+   "tag": "are/be<vbser><pres>",
+   "weight": -0.24913765853326109,
+   "reviews": 69063
+  },
+  {
+   "id": "a826c47947d68549fa81e19cafa57ba0",
+   "text": "eat",
+   "tag": "eat/eat<vblex><pres>",
+   "weight": -0.23030400824554045,
+   "reviews": 66569
+  },
+  {
+   "id": "0a7ad985b6b19b5cfb4723f207220a3d",
+   "text": "they",
+   "tag": "they/prpers<prn><subj><p3><mf><pl>",
+   "weight": -0.07402581233336095,
+   "reviews": 64371
+  },
+  {
+   "id": "b974624f112084b39586380fe4aaf32a",
+   "text": "man",
+   "tag": "man/man<n><sg>",
+   "weight": -0.15683221123193308,
+   "reviews": 60326
+  },
+  {
+   "id": "cdfecc9247566d40bb964a218c54c783",
+   "text": "drink",
+   "tag": "drink/drink<vblex><pres>",
+   "weight": -0.22511018389868412,
+   "reviews": 60219
+  },
+  {
+   "id": "0d9244f805fd55af1281a1bcb1a2cba6",
+   "text": "and",
+   "tag": "and/and<cnjcoo>",
+   "weight": -0.14535745697894606,
+   "reviews": 59933
+  },
+  {
+   "id": "547bb1812414cec172b0afef5ca93fce",
+   "text": "girl",
+   "tag": "girl/girl<n><sg>",
+   "weight": -0.1101773707841008,
+   "reviews": 59105
+  },
+  {
+   "id": "e8578c557b3989f9efbc424f9430091d",
+   "text": "come",
+   "tag": "come/comer<vblex><pri><p3><sg>",
+   "weight": -0.08456696907519888,
+   "reviews": 58069
+  },
+  {
+   "id": "01669d9689c5cf2ec04c58a893f02ab6",
+   "text": "drinks",
+   "tag": "drinks/drink<vblex><pri><p3><sg>",
+   "weight": -0.23072523789474184,
+   "reviews": 57518
+  },
+  {
+   "id": "0b92ea6f088f642e9aaa8c2acc7d7b0a",
+   "text": "boy",
+   "tag": "boy/boy<n><sg>",
+   "weight": -0.06924834222619596,
+   "reviews": 55303
+  },
+  {
+   "id": "375662ec82debfdebd8215b147848cc7",
+   "text": "woman",
+   "tag": "woman/woman<n><sg>",
+   "weight": -0.1403173424453903,
+   "reviews": 55125
+  },
+  {
+   "id": "80765ae2a08ba6812a4ab9df607b97d2",
+   "text": "am",
+   "tag": "am/be<vbser><pri><p1><sg>",
+   "weight": -0.10466511255059359,
+   "reviews": 54131
+  },
+  {
+   "id": "1e1f8d730c4ba99ad2873a7608324cf6",
+   "text": "my",
+   "tag": "my/my<det><pos><sp>",
+   "weight": -0.09914030121724429,
+   "reviews": 52476
+  },
+  {
+   "id": "54ed4cf41cbbae2ce97ddda174b5be84",
+   "text": "es",
+   "tag": "es/ser<vbser><pri><p3><sg>",
+   "weight": -0.009268413563963962,
+   "reviews": 50212
+  },
+  {
+   "id": "c52ab45d4e22ee7580041911159e3c0c",
+   "text": "water",
+   "tag": "water/water<n><sg>",
+   "weight": -0.14670295495289606,
+   "reviews": 50101
+  },
+  {
+   "id": "c7cdabd85f63506807f8d856897a2089",
+   "text": "it",
+   "tag": "it/prpers<prn><subj><p3><nt><sg>",
+   "weight": -0.017765276171240706,
+   "reviews": 48820
+  },
+  {
+   "id": "55f383178cf0fdc463ef1ebf91bd288d",
+   "text": "milk",
+   "tag": "milk/milk<n><sg>",
+   "weight": -0.09571781340690401,
+   "reviews": 48624
+  },
+  {
+   "id": "5e29d77697d23070a1fb92eb6c90e9b6",
+   "text": "bread",
+   "tag": "bread/bread<n><sg>",
+   "weight": -0.1407919607888056,
+   "reviews": 48581
+  },
+  {
+   "id": "808d0c8ede6981e3d9a7a87153601e38",
+   "text": "une",
+   "tag": "une/un<det><ind><f><sg>",
+   "weight": -0.2794579181544255,
+   "reviews": 45595
+  },
+  {
+   "id": "33a7fd42f74b2d2b1110f1b0c8b6db38",
+   "text": "not",
+   "tag": "not/not<adv>",
+   "weight": -0.23262667446171484,
+   "reviews": 44261
+  },
+  {
+   "id": "03a546003e03b545a6d419b6620b3749",
+   "text": "la",
+   "tag": "la/le<det><def><f><sg>",
+   "weight": -0.24352850074320043,
+   "reviews": 43966
+  },
+  {
+   "id": "142ad0f32d08728de0f9955df5b83f32",
+   "text": "an",
+   "tag": "an/a<det><ind><sg>",
+   "weight": -0.15802830463506862,
+   "reviews": 43580
+  },
+  {
+   "id": "aa94db3b587c7027e8505c25f6fc8ed9",
+   "text": "apple",
+   "tag": "apple/apple<n><sg>",
+   "weight": -0.12802416438184616,
+   "reviews": 43213
+  },
+  {
+   "id": "be70637289b60b17de3b22270462e5bf",
+   "text": "un",
+   "tag": "un/un<det><ind><m><sg>",
+   "weight": -0.18567045738478952,
+   "reviews": 42633
+  },
+  {
+   "id": "b314eb04f77f9a6f277a4f6546d51287",
+   "text": "rice",
+   "tag": "rice/rice<n><sg>",
+   "weight": -0.0027049227569456687,
+   "reviews": 40866
+  },
+  {
+   "id": "1d82fa60ebcc219cea70d4375a404a5c",
+   "text": "bebe",
+   "tag": "bebe/beber<vblex><pri><p3><sg>",
+   "weight": 0.060589884866264904,
+   "reviews": 40709
+  },
+  {
+   "id": "fda174b61b0ed5e2eaa6deceae37f56b",
+   "text": "son",
+   "tag": "son/ser<vbser><pri><p3><pl>",
+   "weight": -0.06941351609935709,
+   "reviews": 39629
+  },
+  {
+   "id": "8243ebb6f04f8293b3c63cf666b5eacc",
+   "text": "le",
+   "tag": "le/le<det><def><m><sg>",
+   "weight": -0.15633222457730328,
+   "reviews": 39385
+  },
+  {
+   "id": "65675f993b9cdc38918837f561a70625",
+   "text": "l'",
+   "tag": "l'/le<det><def><mf><sg>",
+   "weight": -0.19532650128474618,
+   "reviews": 38860
+  },
+  {
+   "id": "dc230cd7596e16ff8bbfbbd9eb36582a",
+   "text": "tu",
+   "tag": "tu/tu<prn><tn><p2><mf><sg>",
+   "weight": -0.2665254769648324,
+   "reviews": 37733
+  },
+  {
+   "id": "c2c8a202a12411858f87d4dcef5b2998",
+   "text": "no",
+   "tag": "no/no<adv>",
+   "weight": 0.06075480202126172,
+   "reviews": 37234
+  },
+  {
+   "id": "84e18e86c58e8e61d687dfa06b3aaa36",
+   "text": "soy",
+   "tag": "soy/ser<vbser><pri><p1><sg>",
+   "weight": -0.01539637861693943,
+   "reviews": 37212
+  },
+  {
+   "id": "efc2c65bd3a2ab7e0e2d4db65e290699",
+   "text": "read",
+   "tag": "read/read<vblex><pres>",
+   "weight": -0.1357520176117579,
+   "reviews": 36329
+  },
+  {
+   "id": "91e1f511d532b80f8ef3fca752f3a237",
+   "text": "fish",
+   "tag": "fish/fish<n><sg>",
+   "weight": -0.1314912568795062,
+   "reviews": 36068
+  },
+  {
+   "id": "678bfa5d0ccd050c12395a792abaff12",
+   "text": "i",
+   "tag": "i/prpers<prn><subj><p1><mf><sg>",
+   "weight": 0.01620866717565369,
+   "reviews": 34129
+  },
+  {
+   "id": "8e6df998cc5c26b86482a3040a5805e2",
+   "text": "c'",
+   "tag": "c'/ce<prn><tn><nt><sg>",
+   "weight": -0.14769886161414864,
+   "reviews": 34096
+  },
+  {
+   "id": "7dfd7086f3671685e2cf1c1da72796d7",
+   "text": "die",
+   "tag": "die/die<det><def><f><sg><nom>",
+   "weight": -0.23603531298481167,
+   "reviews": 31954
+  },
+  {
+   "id": "8bd6d060bb604e17c936418f835d87c8",
+   "text": "mon",
+   "tag": "mon/mon<det><pos><m><sg>",
+   "weight": -0.012652460700449699,
+   "reviews": 31761
+  },
+  {
+   "id": "6b945b144608aa4e5b254baf20e2be77",
+   "text": "cat",
+   "tag": "cat/cat<n><sg>",
+   "weight": -0.0771929815359541,
+   "reviews": 31404
+  },
+  {
+   "id": "c3c416ec9a16d9ec6f7b96236c5b49e2",
+   "text": "dog",
+   "tag": "dog/dog<n><sg>",
+   "weight": -0.18200940592054718,
+   "reviews": 31107
+  },
+  {
+   "id": "e5a09ea1bd469575ed000382d5cee176",
+   "text": "mujer",
+   "tag": "mujer/mujer<n><f><sg>",
+   "weight": -0.09306209279026467,
+   "reviews": 31084
+  },
+  {
+   "id": "86584daef5933b284384453795bbf0ed",
+   "text": "hombre",
+   "tag": "hombre/hombre<n><m><sg>",
+   "weight": -0.11030704618313052,
+   "reviews": 31078
+  },
+  {
+   "id": "631d297c324518ea97ac01fd2abd6e46",
+   "text": "les",
+   "tag": "les/le<det><def><mf><pl>",
+   "weight": -0.18173539078000425,
+   "reviews": 30816
+  },
+  {
+   "id": "d5efc552aaea3109eb5388aa1ec8673d",
+   "text": "the",
+   "tag": "the/the<det><def><sp>",
+   "weight": -0.31981759836489954,
+   "reviews": 30161
+  },
+  {
+   "id": "f0dfe0a3acd6a6a42701c33e93ba29d9",
+   "text": "agua",
+   "tag": "agua/agua<n><f><sg>",
+   "weight": 0.0809509547699362,
+   "reviews": 30080
+  },
+  {
+   "id": "2b97dce464f0a69324ffd2955a7eff1f",
+   "text": "our",
+   "tag": "our/our<det><pos><sp>",
+   "weight": -0.16122786793171068,
+   "reviews": 29941
+  },
+  {
+   "id": "6d6841b5a0ea88d87c2a7b6eee95ab48",
+   "text": "et",
+   "tag": "et/et<cnjcoo>",
+   "weight": -0.3767976412259316,
+   "reviews": 29881
+  },
+  {
+   "id": "84920990d78044db53c1b012f5bf9ab5",
+   "text": "das",
+   "tag": "das/das<det><def><nt><sg><nom>",
+   "weight": -0.2037179769604894,
+   "reviews": 29810
+  },
+  {
+   "id": "575d2821d7c3fa6d410c0eb2ea878f28",
+   "text": "leche",
+   "tag": "leche/leche<n><f><sg>",
+   "weight": 0.042770554678430196,
+   "reviews": 29666
+  },
+  {
+   "id": "dbfcff53f62c7064cd3af7e2838936f1",
+   "text": "book",
+   "tag": "book/book<n><sg>",
+   "weight": -0.0366609150764739,
+   "reviews": 29521
+  },
+  {
+   "id": "e16c578226476ae646530b6356f9b0ad",
+   "text": "newspaper",
+   "tag": "newspaper/newspaper<n><sg>",
+   "weight": -0.04351728058109581,
+   "reviews": 29497
+  },
+  {
+   "id": "d08cf940a72a6e1df3a6ae6bbd9f100f",
+   "text": "you",
+   "tag": "you/prpers<prn><subj><p2><mf><sp>",
+   "weight": -0.00917977167839353,
+   "reviews": 29416
+  },
+  {
+   "id": "e296b8e7737593b36ec7583275c790fe",
+   "text": "boys",
+   "tag": "boys/boy<n><pl>",
+   "weight": 0.06208067165929095,
+   "reviews": 29290
+  },
+  {
+   "id": "08dfcd4e6c86bb047be6dc84e77ed664",
+   "text": "ni\u00f1a",
+   "tag": "ni\u00f1a/ni\u00f1o<n><f><sg>",
+   "weight": -0.008261038253171935,
+   "reviews": 28969
+  },
+  {
+   "id": "f3996a785b8d9fe04c44850c79a0a337",
+   "text": "est",
+   "tag": "est/\u00eatre<vbser><pri><p3><sg>",
+   "weight": -0.12965454107051386,
+   "reviews": 28876
+  },
+  {
+   "id": "b573a2ebb834b1346202143003738756",
+   "text": "girls",
+   "tag": "girls/girl<n><pl>",
+   "weight": -0.03910528670407077,
+   "reviews": 28324
+  },
+  {
+   "id": "6467457ef675ada64c360e7d17642aaf",
+   "text": "men",
+   "tag": "men/man<n><pl>",
+   "weight": -0.2954882237527222,
+   "reviews": 28179
+  },
+  {
+   "id": "e3bebde2e7cee0fa6157219f3536d80f",
+   "text": "femme",
+   "tag": "femme/femme<n><f><sg>",
+   "weight": -0.13147259367959796,
+   "reviews": 27757
+  },
+  {
+   "id": "ef1f94c0e977e97bd02772867e9110f1",
+   "text": "chicken",
+   "tag": "chicken/chicken<n><sg>",
+   "weight": 0.10187030836660732,
+   "reviews": 27202
+  },
+  {
+   "id": "1f52d650da1ee41e47ee11caf853e6f4",
+   "text": "sandwich",
+   "tag": "sandwich/sandwich<n><sg>",
+   "weight": 0.019786109676749618,
+   "reviews": 26929
+  },
+  {
+   "id": "61c2f4dd9c024c9d99910ba2b04590b1",
+   "text": "comen",
+   "tag": "comen/comer<vblex><pri><p3><pl>",
+   "weight": 0.016624487388938295,
+   "reviews": 26782
+  },
+  {
+   "id": "605a1c36da2cf22706eaad95b0b7eeee",
+   "text": "ni\u00f1o",
+   "tag": "ni\u00f1o/ni\u00f1o<n><m><sg>",
+   "weight": -0.10638806178453336,
+   "reviews": 26453
+  },
+  {
+   "id": "65e5296142d056fd1403e95fb027f107",
+   "text": "fruit",
+   "tag": "fruit/fruit<n><sg>",
+   "weight": -0.09439975139667386,
+   "reviews": 26278
+  },
+  {
+   "id": "65e39bd07057893f74d8db10b367f7aa",
+   "text": "she",
+   "tag": "she/prpers<prn><subj><p3><f><sg>",
+   "weight": -0.1027645878160409,
+   "reviews": 25782
+  },
+  {
+   "id": "767fce885fae7a70ef9eab520d78f1bb",
+   "text": "una",
+   "tag": "una/uno<det><ind><f><sg>",
+   "weight": -0.2228143562196449,
+   "reviews": 25632
+  },
+  {
+   "id": "c9fb923e49d5cba24b5afb9ee1cff2a9",
+   "text": "wine",
+   "tag": "wine/wine<n><sg>",
+   "weight": -0.008467545828383006,
+   "reviews": 25587
+  },
+  {
+   "id": "a52bc2771bde31d4d5e80bd29f350714",
+   "text": "manzana",
+   "tag": "manzana/manzana<n><f><sg>",
+   "weight": 0.009366721329778479,
+   "reviews": 25330
+  },
+  {
+   "id": "2179fd8c281cec0879b28ef81510bf9d",
+   "text": "have",
+   "tag": "have/have<vblex><pres>",
+   "weight": 0.02807430546189145,
+   "reviews": 24970
+  },
+  {
+   "id": "74b2ac77cf1b5c548dee1241dd3667b9",
+   "text": "cheese",
+   "tag": "cheese/cheese<n><sg>",
+   "weight": -0.03638965513915978,
+   "reviews": 24938
+  },
+  {
+   "id": "0bd5d9cd7baaaf384b5344e27d15cecd",
+   "text": "food",
+   "tag": "food/food<n><sg>",
+   "weight": -0.11095252949128412,
+   "reviews": 24859
+  },
+  {
+   "id": "0cf63ffe3dda158bc3dbd55682b355ae",
+   "text": "frau",
+   "tag": "frau/frau<n><f><sg><nom>",
+   "weight": -0.08866603007381252,
+   "reviews": 24727
+  },
+  {
+   "id": "e0c59af9edfe94325252afb2525b4c93",
+   "text": "beben",
+   "tag": "beben/beber<vblex><pri><p3><pl>",
+   "weight": 0.039171156283698966,
+   "reviews": 23351
+  },
+  {
+   "id": "be2ec2c393a6049b9e1928af32c3cf08",
+   "text": "your",
+   "tag": "your/your<det><pos><sp>",
+   "weight": -0.022958199745991083,
+   "reviews": 23156
+  },
+  {
+   "id": "ca886bc339ea78c58abea6250665ad49",
+   "text": "orange",
+   "tag": "orange/orange<n><sg>",
+   "weight": -0.10346975310801423,
+   "reviews": 22781
+  },
+  {
+   "id": "8f1dc808b41b08007d5e66978fd78a4d",
+   "text": "mange",
+   "tag": "mange/manger<vblex><pri><p3><sg>",
+   "weight": -0.2477886894109288,
+   "reviews": 22702
+  },
+  {
+   "id": "cea25080ac57e5c12f7e0676f70a54df",
+   "text": "escribe",
+   "tag": "escribe/escribir<vblex><pri><p3><sg>",
+   "weight": 0.27139755158153045,
+   "reviews": 22639
+  },
+  {
+   "id": "c2931f12f84e49c84d224cbbdc8a504b",
+   "text": "cats",
+   "tag": "cats/cat<n><pl>",
+   "weight": -0.06732535932986974,
+   "reviews": 22568
+  },
+  {
+   "id": "c5a5d664ac5b4440b3da8613095dd840",
+   "text": "un",
+   "tag": "un/uno<det><ind><m><sg>",
+   "weight": -0.12197321014303843,
+   "reviews": 22124
+  },
+  {
+   "id": "390ca9c2868c14c5616c460e4f31762c",
+   "text": "women",
+   "tag": "women/woman<n><pl>",
+   "weight": -0.09532331186918622,
+   "reviews": 21888
+  },
+  {
+   "id": "6e1c0e08775739d1199b562cd3a2e738",
+   "text": "children",
+   "tag": "children/child<n><pl>",
+   "weight": 0.030232291125133,
+   "reviews": 21837
+  },
+  {
+   "id": "5e56b2dcc7cdc8f6cd58854622b45643",
+   "text": "her",
+   "tag": "her/her<det><pos><sp>",
+   "weight": -0.12200275721782068,
+   "reviews": 21558
+  },
+  {
+   "id": "100164559946674138e97c1e3830ccf4",
+   "text": "child",
+   "tag": "child/child<n><sg>",
+   "weight": -0.14090502832691984,
+   "reviews": 21359
+  },
+  {
+   "id": "2a5f9687f146bdb703ab03f7bedf2d3c",
+   "text": "arroz",
+   "tag": "arroz/arroz<n><m><sg>",
+   "weight": 0.05002588465867958,
+   "reviews": 21354
+  },
+  {
+   "id": "593cf703acd34bfc58184c2a96ff5e2a",
+   "text": "como",
+   "tag": "como/comer<vblex><pri><p1><sg>",
+   "weight": 0.06305945001743228,
+   "reviews": 21342
+  },
+  {
+   "id": "e3f7a4495f1d47fbca713a5a70dbd8e9",
+   "text": "la",
+   "tag": "la/el<det><def><f><sg>",
+   "weight": 0.02667071514745995,
+   "reviews": 21308
+  },
+  {
+   "id": "b1b2b2203009f082a1cf172e42fa65a3",
+   "text": "el",
+   "tag": "el/el<det><def><m><sg>",
+   "weight": 0.01763785286930391,
+   "reviews": 21289
+  },
+  {
+   "id": "930ddde2032f793642573f03dc198c9c",
+   "text": "mi",
+   "tag": "mi/m\u00edo<det><pos><mf><sg>",
+   "weight": 0.1756658070836454,
+   "reviews": 21236
+  },
+  {
+   "id": "958e352cb64f78feed5afb5b95657dbe",
+   "text": "eres",
+   "tag": "eres/ser<vbser><pri><p2><sg>",
+   "weight": -0.07289873773513436,
+   "reviews": 21226
+  },
+  {
+   "id": "764e3dc3b4ba7256526f0b66c33d778d",
+   "text": "hello",
+   "tag": "hello/hello<ij>",
+   "weight": -0.04851186544642999,
+   "reviews": 20914
+  },
+  {
+   "id": "5594b03119f7beb09faeab02bda34d19",
+   "text": "elle",
+   "tag": "elle/il<prn><tn><p3><f><sg>",
+   "weight": -0.20313931433442434,
+   "reviews": 20914
+  },
+  {
+   "id": "ab5609e6c607e5642664fed06ffa0713",
+   "text": "plate",
+   "tag": "plate/plate<n><sg>",
+   "weight": 0.06215974929015492,
+   "reviews": 20872
+  },
+  {
+   "id": "a96439c6627d7b2447435b1a5f32eade",
+   "text": "yo",
+   "tag": "yo/prpers<prn><tn><p1><mf><sg>",
+   "weight": -0.1408013237589449,
+   "reviews": 20868
+  },
+  {
+   "id": "1bacf218eaaf9f944e525f7be9b31899",
+   "text": "kind",
+   "tag": "kind/kind<n><nt><sg><nom>",
+   "weight": -0.038159963251561166,
+   "reviews": 20479
+  },
+  {
+   "id": "faa6fd18132b358958e440322ee82b4b",
+   "text": "lee",
+   "tag": "lee/leer<vblex><pri><p3><sg>",
+   "weight": 0.1470319751283822,
+   "reviews": 20404
+  },
+  {
+   "id": "e83432c98b3619a933438e9300467491",
+   "text": "wasser",
+   "tag": "wasser/wasser<n><nt><sg><acc>",
+   "weight": -0.12415855295202191,
+   "reviews": 20357
+  },
+  {
+   "id": "8c8952fbf398f996438f9fd5a27f9d38",
+   "text": "red",
+   "tag": "red/red<adj>",
+   "weight": -0.09139159672143059,
+   "reviews": 20339
+  },
+  {
+   "id": "12157a474f4722909b9a08dc004b8e2d",
+   "text": "enfant",
+   "tag": "enfant/enfant<n><mf><sg>",
+   "weight": -0.06826568168585496,
+   "reviews": 20277
+  },
+  {
+   "id": "e5a11511dda58f5feb9e25bbf8aa3aca",
+   "text": "horse",
+   "tag": "horse/horse<n><sg>",
+   "weight": -0.0030203071331992744,
+   "reviews": 20237
+  },
+  {
+   "id": "335fe9380e553c323369a8509bcc00f6",
+   "text": "reads",
+   "tag": "reads/read<vblex><pri><p3><sg>",
+   "weight": 0.00878534536530359,
+   "reviews": 20054
+  },
+  {
+   "id": "165dc4d4b42c9d825cb913541fdd09a7",
+   "text": "juice",
+   "tag": "juice/juice<n><sg>",
+   "weight": -0.06964147143389336,
+   "reviews": 20034
+  },
+  {
+   "id": "f8fdb9076b95ddccaccdbad286b0b558",
+   "text": "dogs",
+   "tag": "dogs/dog<n><pl>",
+   "weight": -0.00172177660218396,
+   "reviews": 19850
+  },
+  {
+   "id": "e1edf7bdcb3008f65fdf18db27d3dd7d",
+   "text": "me",
+   "tag": "me/prpers<prn><obj><p1><mf><sg>",
+   "weight": 0.09990480238298538,
+   "reviews": 19629
+  },
+  {
+   "id": "f21a429c717dd93b9f5723f20d87ab8a",
+   "text": "coffee",
+   "tag": "coffee/coffee<n><sg>",
+   "weight": 0.06845209570287816,
+   "reviews": 19405
+  },
+  {
+   "id": "389d16a7713404bf18de999b57a54eae",
+   "text": "pan",
+   "tag": "pan/pan<n><m><sg>",
+   "weight": 0.08038924561184232,
+   "reviews": 19277
+  },
+  {
+   "id": "d94aa893b5c536f2a4664637d9bec191",
+   "text": "yes",
+   "tag": "yes/yes<adv>",
+   "weight": 0.009689577883906498,
+   "reviews": 18992
+  },
+  {
+   "id": "82405a988fe6d883b8df7297873c5e5a",
+   "text": "t\u00fa",
+   "tag": "t\u00fa/prpers<prn><tn><p2><mf><sg>",
+   "weight": -0.168115089516375,
+   "reviews": 18908
+  },
+  {
+   "id": "5fa72aeafbde5b346681886abbabf3f3",
+   "text": "egg",
+   "tag": "egg/egg<n><sg>",
+   "weight": 0.10539645278112436,
+   "reviews": 18893
+  },
+  {
+   "id": "c84476c460737d9fb905dca3d35ec995",
+   "text": "ni\u00f1os",
+   "tag": "ni\u00f1os/ni\u00f1o<n><m><pl>",
+   "weight": 0.2209444647086456,
+   "reviews": 18785
+  },
+  {
+   "id": "16f2acaffe30cb9a81f422674d398df4",
+   "text": "he",
+   "tag": "he/prpers<prn><subj><p3><m><sg>",
+   "weight": 0.06865361377712058,
+   "reviews": 18584
+  },
+  {
+   "id": "ee83763629a0d5a538c07e65bfd65593",
+   "text": "please",
+   "tag": "please/please<adv>",
+   "weight": -0.0016483490171986736,
+   "reviews": 18579
+  },
+  {
+   "id": "6f9902a2e4d1f353aecc47843c9df6e7",
+   "text": "eine",
+   "tag": "eine/ein<det><ind><f><sg><nom>",
+   "weight": 0.01268335640191258,
+   "reviews": 18455
+  },
+  {
+   "id": "b493941dee612f9cb734318c210ab257",
+   "text": "shirt",
+   "tag": "shirt/shirt<n><sg>",
+   "weight": -0.16388885990680932,
+   "reviews": 18187
+  },
+  {
+   "id": "17632879145d3e2737d11a3a5053dd50",
+   "text": "his",
+   "tag": "his/his<det><pos><sp>",
+   "weight": 0.05264227915688568,
+   "reviews": 18105
+  },
+  {
+   "id": "4adf5cd40d521b02a9cc241bf3adc6bb",
+   "text": "have",
+   "tag": "have/have<vblex><inf>",
+   "weight": -0.010694714616578435,
+   "reviews": 18022
+  },
+  {
+   "id": "76390c1350a8dac31186187e2fe1e178",
+   "text": "lernt",
+   "tag": "lernt/lernen<vblex><pri><p3><sg>",
+   "weight": 0.02025387520432091,
+   "reviews": 18001
+  },
+  {
+   "id": "099dfb07f4ace185b82838c1fb5781ff",
+   "text": "sugar",
+   "tag": "sugar/sugar<n><sg>",
+   "weight": 0.13983264417794405,
+   "reviews": 17818
+  },
+  {
+   "id": "81d3f527c32966c66d91396f06430cf8",
+   "text": "elephant",
+   "tag": "elephant/elephant<n><sg>",
+   "weight": 0.043067181592720404,
+   "reviews": 17673
+  },
+  {
+   "id": "bfa2713c4f93d7341626fd88601d008b",
+   "text": "tomato",
+   "tag": "tomato/tomato<n><sg>",
+   "weight": 0.024202951779360656,
+   "reviews": 17650
+  },
+  {
+   "id": "caf87ffb7428eb2a20712222890aa8d1",
+   "text": "soup",
+   "tag": "soup/soup<n><sg>",
+   "weight": -0.03923402074038028,
+   "reviews": 17593
+  },
+  {
+   "id": "1fc2f0656f2fe60d027751545f84e7d5",
+   "text": "do",
+   "tag": "do/do<vbdo><pres>",
+   "weight": 0.01091515831051918,
+   "reviews": 17360
+  },
+  {
+   "id": "b1a71481e27138dc37501f2cbde775fc",
+   "text": "es",
+   "tag": "es/\u00eatre<vbser><pri><p2><sg>",
+   "weight": -0.015940127687580248,
+   "reviews": 17332
+  },
+  {
+   "id": "87c450efea56f8f35f5ca4e48906a192",
+   "text": "bye",
+   "tag": "bye/bye<ij>",
+   "weight": -0.016127315331254003,
+   "reviews": 17330
+  },
+  {
+   "id": "5b714a6b291731d4b753c6372cde357a",
+   "text": "manges",
+   "tag": "manges/manger<vblex><pri><p2><sg>",
+   "weight": -0.07521868704579324,
+   "reviews": 17300
+  },
+  {
+   "id": "151bdacf1c5d3f8f5b9e60b6eca8e4db",
+   "text": "breakfast",
+   "tag": "breakfast/breakfast<n><sg>",
+   "weight": 0.010754654007412297,
+   "reviews": 17236
+  },
+  {
+   "id": "b8177f85ffb5356bd51d6ebaacd146e4",
+   "text": "pomme",
+   "tag": "pomme/pomme<n><f><sg>",
+   "weight": -0.07544068714077336,
+   "reviews": 17227
+  },
+  {
+   "id": "f3ec502e5b9ca28d31b1478341f7bb3d",
+   "text": "somos",
+   "tag": "somos/ser<vbser><pri><p1><pl>",
+   "weight": 0.03728904813440168,
+   "reviews": 17109
+  },
+  {
+   "id": "25dcc7b3420a56110835a165f02513c9",
+   "text": "lunch",
+   "tag": "lunch/lunch<n><sg>",
+   "weight": 0.045068440159773585,
+   "reviews": 17024
+  },
+  {
+   "id": "bb7ca1ff45b2ac26c875c4e764b48935",
+   "text": "strawberry",
+   "tag": "strawberry/strawberry<n><sg>",
+   "weight": -0.10939320953480251,
+   "reviews": 17006
+  },
+  {
+   "id": "495f763ef6027e020c53431484aa5ede",
+   "text": "isst",
+   "tag": "isst/essen<vblex><pri><p3><sg>",
+   "weight": 0.0008072777692554301,
+   "reviews": 16886
+  },
+  {
+   "id": "f42865f53c4d50746ed9bb08fe1fdfd8",
+   "text": "white",
+   "tag": "white/white<adj><sint>",
+   "weight": -0.051753941460569323,
+   "reviews": 16843
+  },
+  {
+   "id": "cd6d617c7071b0bb4b0863ab14ff6d80",
+   "text": "pasta",
+   "tag": "pasta/pasta<n><sg>",
+   "weight": 0.04117846265394961,
+   "reviews": 16839
+  },
+  {
+   "id": "bd51ddeb540514b183c538b3a79cb7a4",
+   "text": "hat",
+   "tag": "hat/hat<n><sg>",
+   "weight": -0.174866452358462,
+   "reviews": 16835
+  },
+  {
+   "id": "92545dc760008a4cdb29e841e6121952",
+   "text": "beer",
+   "tag": "beer/beer<n><sg>",
+   "weight": -0.04687427272260809,
+   "reviews": 16563
+  },
+  {
+   "id": "99cd0848be9239250ffd99e11add7338",
+   "text": "de",
+   "tag": "de/de<pr>",
+   "weight": -0.01902789285727088,
+   "reviews": 16520
+  },
+  {
+   "id": "38b770e66595fea718366523b4f7db3f",
+   "text": "libro",
+   "tag": "libro/libro<n><m><sg>",
+   "weight": 0.16216968644252194,
+   "reviews": 16509
+  },
+  {
+   "id": "f254244207240db11107ffbe433d1e0e",
+   "text": "bird",
+   "tag": "bird/bird<n><sg>",
+   "weight": -0.1268952330860899,
+   "reviews": 16504
+  },
+  {
+   "id": "cb8bd106befcf7d388d0a06a1d467212",
+   "text": "menu",
+   "tag": "menu/menu<n><sg>",
+   "weight": 0.058197844689835465,
+   "reviews": 16412
+  },
+  {
+   "id": "6d4c572af8022cb4784ce0f8898d1905",
+   "text": "to",
+   "tag": "to/to<pr>",
+   "weight": -0.06584167315291586,
+   "reviews": 16403
+  },
+  {
+   "id": "ebc831d3a05751d0fbbd3495158aa038",
+   "text": "duck",
+   "tag": "duck/duck<n><sg>",
+   "weight": -0.24359534807705427,
+   "reviews": 16394
+  },
+  {
+   "id": "967bfdb9d5180c33cfb21dca82034e85",
+   "text": "usted",
+   "tag": "usted/prpers<prn><tn><p3><mf><sg>",
+   "weight": 0.00367070752774008,
+   "reviews": 16335
+  },
+  {
+   "id": "797df85fa241f274d166630d082e6db3",
+   "text": "apples",
+   "tag": "apples/apple<n><pl>",
+   "weight": -0.09398688556357387,
+   "reviews": 16239
+  },
+  {
+   "id": "f0f2727a8c1b436349fa2f07bc698945",
+   "text": "pescado",
+   "tag": "pescado/pescado<n><m><sg>",
+   "weight": 0.020178373164710797,
+   "reviews": 16216
+  },
+  {
+   "id": "4a053e65555d1325c3ff3e618239606e",
+   "text": "y",
+   "tag": "y/y<cnjcoo>",
+   "weight": -0.000535259927753835,
+   "reviews": 16067
+  },
+  {
+   "id": "2099dab843c707202dd04b1eb3348126",
+   "text": "a",
+   "tag": "a/avoir<vblex><pri><p3><sg>",
+   "weight": 0.021526688392698213,
+   "reviews": 15982
+  },
+  {
+   "id": "dfc953d62306359e46f8fe77fe4fa6c8",
+   "text": "shoes",
+   "tag": "shoes/shoe<n><pl>",
+   "weight": -0.11200976386676523,
+   "reviews": 15949
+  },
+  {
+   "id": "45b3b756380a85c42675d5fd64a4e432",
+   "text": "lemon",
+   "tag": "lemon/lemon<n><sg>",
+   "weight": -0.05393556612576957,
+   "reviews": 15915
+  },
+  {
+   "id": "8eab218aee7c0dac90f093c855af968a",
+   "text": "pain",
+   "tag": "pain/pain<n><m><sg>",
+   "weight": 0.018909708705217625,
+   "reviews": 15758
+  },
+  {
+   "id": "7dd6b30fc37ca73482a4d629bd93dac0",
+   "text": "bear",
+   "tag": "bear/bear<n><sg>",
+   "weight": -0.3006930947046592,
+   "reviews": 15640
+  },
+  {
+   "id": "7f78970589f8a9fe95bca610215c051a",
+   "text": "ein",
+   "tag": "ein/ein<det><ind><nt><sg><acc>",
+   "weight": -0.09705282987779561,
+   "reviews": 15511
+  },
+  {
+   "id": "4e6eee1689a883a483fe26c82d14e8c9",
+   "text": "their",
+   "tag": "their/their<det><pos><sp>",
+   "weight": -0.14658376783066884,
+   "reviews": 15502
+  },
+  {
+   "id": "3c317e367d8d299c237e618dd5dde5da",
+   "text": "vino",
+   "tag": "vino/vino<n><m><sg>",
+   "weight": 0.1436029856689569,
+   "reviews": 15469
+  },
+  {
+   "id": "2ac4ffe95f75b15d1d99aeebbb8321c7",
+   "text": "ist",
+   "tag": "ist/sein<vbser><pri><p3><sg>",
+   "weight": 0.123129887505755,
+   "reviews": 15437
+  },
+  {
+   "id": "9353386b0c4e64accaac7bc00f86959d",
+   "text": "mis",
+   "tag": "mis/m\u00edo<det><pos><mf><pl>",
+   "weight": 0.23487795675095913,
+   "reviews": 15432
+  },
+  {
+   "id": "28bf9a71ef6ce4721e906f594b7a5b80",
+   "text": "fille",
+   "tag": "fille/fille<n><f><sg>",
+   "weight": -0.08796155848998534,
+   "reviews": 15227
+  },
+  {
+   "id": "7c5f7481bd058705944beb130edc5882",
+   "text": "\u00e9l",
+   "tag": "\u00e9l/prpers<prn><tn><p3><m><sg>",
+   "weight": 0.021441674176208545,
+   "reviews": 15168
+  },
+  {
+   "id": "949dcde4140ed63db24a73573f6ce7ea",
+   "text": "gato",
+   "tag": "gato/gato<n><m><sg>",
+   "weight": 0.22045979281713837,
+   "reviews": 15136
+  },
+  {
+   "id": "2d0937077480a627a3973de2a1e4015a",
+   "text": "vin",
+   "tag": "vin/vin<n><m><sg>",
+   "weight": 0.08206402217995223,
+   "reviews": 15097
+  },
+  {
+   "id": "41ba24ffb11fd09f5fc715d39cc6c1ea",
+   "text": "qu\u00e9",
+   "tag": "qu\u00e9/qu\u00e9<prn><itg><m><sg>",
+   "weight": 0.028421113870227933,
+   "reviews": 15030
+  },
+  {
+   "id": "7dab41a78fec1de7eea6f4e0f5173f3a",
+   "text": "hats",
+   "tag": "hats/hat<n><pl>",
+   "weight": -0.23562306598395444,
+   "reviews": 14988
+  },
+  {
+   "id": "577853bea646e596a8bd041fb781718a",
+   "text": "does",
+   "tag": "does/do<vbdo><pri><p3><sg>",
+   "weight": -0.1270401573418495,
+   "reviews": 14949
+  },
+  {
+   "id": "b1d3c09c2fbf94a1bfa279ea186b9a12",
+   "text": "beef",
+   "tag": "beef/beef<n><sg>",
+   "weight": -0.1277400480648422,
+   "reviews": 14910
+  },
+  {
+   "id": "f00cd5d54171096208a6a1e13ab02ab9",
+   "text": "perro",
+   "tag": "perro/perro<n><m><sg>",
+   "weight": 0.21304120539110258,
+   "reviews": 14903
+  },
+  {
+   "id": "e0c4847185936c50b09b1c9b97cefa84",
+   "text": "por",
+   "tag": "por/por<pr>",
+   "weight": 0.13538083228630832,
+   "reviews": 14823
+  },
+  {
+   "id": "306560d6f47275980bdfc69f8f338552",
+   "text": "trinkt",
+   "tag": "trinkt/trinken<vblex><pri><p3><sg>",
+   "weight": -0.03403774959156897,
+   "reviews": 14810
+  },
+  {
+   "id": "f6fd61a3465e663d4a6a7128570a59d1",
+   "text": "books",
+   "tag": "books/book<n><pl>",
+   "weight": -0.004085584211259137,
+   "reviews": 14791
+  },
+  {
+   "id": "7a271d40b9230ab5e12de433c00506fa",
+   "text": "je",
+   "tag": "je/je<prn><tn><p1><mf><sg>",
+   "weight": -0.01729658115328191,
+   "reviews": 14775
+  },
+  {
+   "id": "822ef52ef2cf0f095a65190d10958517",
+   "text": "salt",
+   "tag": "salt/salt<n><sg>",
+   "weight": -0.11058544245853799,
+   "reviews": 14762
+  },
+  {
+   "id": "02f223d35274044da61fd6ed8a1729ab",
+   "text": "turtles",
+   "tag": "turtles/turtle<n><pl>",
+   "weight": -0.08693006320530168,
+   "reviews": 14616
+  },
+  {
+   "id": "3629ee563c2d56a4869e100a38014108",
+   "text": "alcohol",
+   "tag": "alcohol/alcohol<n><sg>",
+   "weight": -0.07853307680917153,
+   "reviews": 14515
+  },
+  {
+   "id": "94ce583e381ddf3a295d51b9578fdfe5",
+   "text": "shirts",
+   "tag": "shirts/shirt<n><pl>",
+   "weight": -0.25110051237288145,
+   "reviews": 14458
+  },
+  {
+   "id": "b1e18ed8c315790bee5862b9cd0ba83d",
+   "text": "\u00e7a",
+   "tag": "\u00e7a/\u00e7a<prn><tn><nt>",
+   "weight": -0.21162681568562675,
+   "reviews": 14367
+  },
+  {
+   "id": "f19bad09b7354d4cf02403544519d849",
+   "text": "dinner",
+   "tag": "dinner/dinner<n><sg>",
+   "weight": -0.17796195308157461,
+   "reviews": 14357
+  },
+  {
+   "id": "96e400fdbb0c09c224142b771abf2cbd",
+   "text": "eine",
+   "tag": "eine/ein<det><ind><f><sg><acc>",
+   "weight": 0.010275564963789046,
+   "reviews": 14336
+  },
+  {
+   "id": "33b0e1ddffd7f88532895500640817ee",
+   "text": "comes",
+   "tag": "comes/comer<vblex><pri><p2><sg>",
+   "weight": 0.1285512518414894,
+   "reviews": 14305
+  },
+  {
+   "id": "bc77537cb121e6e22bd91949fbecc4c4",
+   "text": "eau",
+   "tag": "eau/eau<n><f><sg>",
+   "weight": -0.04048513472480454,
+   "reviews": 14292
+  },
+  {
+   "id": "0cbf09b9f0d3767395f1b68918b95c65",
+   "text": "du",
+   "tag": "du/de<pr>+le<det><def><m><sg>",
+   "weight": -0.04473199123731869,
+   "reviews": 14245
+  },
+  {
+   "id": "73bcadad77f168896b084da588c4c913",
+   "text": "ils",
+   "tag": "ils/il<prn><tn><p3><m><pl>",
+   "weight": -0.06268714781675634,
+   "reviews": 14223
+  },
+  {
+   "id": "0675fd378e3251994addd1184a560eec",
+   "text": "tu",
+   "tag": "tu/tuyo<det><pos><mf><sg>",
+   "weight": 0.2496783229652212,
+   "reviews": 14192
+  },
+  {
+   "id": "de64b0a3bb8cb9360e85a1a87d8c3c44",
+   "text": "riz",
+   "tag": "riz/riz<n><m><sp>",
+   "weight": -0.08636067552565987,
+   "reviews": 14119
+  },
+  {
+   "id": "7489751fe9a37e9c8f03e2e4562b8d03",
+   "text": "in",
+   "tag": "in/in<pr>",
+   "weight": 0.0960666699653167,
+   "reviews": 14102
+  },
+  {
+   "id": "bb8d16a1da003f3cbc62262b57496bf0",
+   "text": "spielt",
+   "tag": "spielt/spielen<vblex><pri><p3><sg>",
+   "weight": -0.1278831371304493,
+   "reviews": 14088
+  },
+  {
+   "id": "eeaea9dd7feaad06518e114c325d1308",
+   "text": "des",
+   "tag": "des/de<pr>+le<det><def><mf><pl>",
+   "weight": -0.13648700627161853,
+   "reviews": 14037
+  },
+  {
+   "id": "842443fda40da053ff7f8d68c1af99b8",
+   "text": "oil",
+   "tag": "oil/oil<n><sg>",
+   "weight": -0.11418948201297566,
+   "reviews": 14018
+  },
+  {
+   "id": "6debf33c91876b19aa26095423ad0e3e",
+   "text": "suis",
+   "tag": "suis/\u00eatre<vbser><pri><p1><sg>",
+   "weight": 0.08205453323486031,
+   "reviews": 13988
+  },
+  {
+   "id": "ba0a3f9e43bfc46291ffe54c4ff1aa99",
+   "text": "enfants",
+   "tag": "enfants/enfant<n><mf><pl>",
+   "weight": 0.09578748647116678,
+   "reviews": 13862
+  },
+  {
+   "id": "653d29704b56b4a27be6b89f0a64453e",
+   "text": "homme",
+   "tag": "homme/homme<n><m><sg>",
+   "weight": -0.04412593918974566,
+   "reviews": 13860
+  },
+  {
+   "id": "751870fa2768a6ee46e433d2b2852ce8",
+   "text": "perros",
+   "tag": "perros/perro<n><m><pl>",
+   "weight": 0.22025863746699847,
+   "reviews": 13812
+  },
+  {
+   "id": "51fb73a04c05d6b9cc036aafd897a0ec",
+   "text": "him",
+   "tag": "him/prpers<prn><obj><p3><m><sg>",
+   "weight": 0.06329243785619448,
+   "reviews": 13801
+  },
+  {
+   "id": "768f410a8fc1caa64ee36071082a231c",
+   "text": "animal",
+   "tag": "animal/animal<n><sg>",
+   "weight": -0.22238623277420547,
+   "reviews": 13768
+  },
+  {
+   "id": "f0018f1d6164d3c67265ca716588f7cb",
+   "text": "es",
+   "tag": "es/es<prn><p3><nt><sg><nom>",
+   "weight": 0.10188208689009995,
+   "reviews": 13754
+  },
+  {
+   "id": "50629ad6c891b5b3f258b2fdb0e3cf82",
+   "text": "nosotros",
+   "tag": "nosotros/prpers<prn><tn><p1><m><pl>",
+   "weight": 0.012383479644375481,
+   "reviews": 13688
+  },
+  {
+   "id": "15f99792b4df114a9390e9c5c8c98d8e",
+   "text": "comemos",
+   "tag": "comemos/comer<vblex><pri><p1><pl>",
+   "weight": 0.09770369126946009,
+   "reviews": 13599
+  },
+  {
+   "id": "bf608564b6e7c672a96cd7d1bb1d5f3f",
+   "text": "crab",
+   "tag": "crab/crab<n><sg>",
+   "weight": -0.3284166879838903,
+   "reviews": 13507
+  },
+  {
+   "id": "efc6cd9e60a5a997c906ecad64813b1d",
+   "text": "ni\u00f1as",
+   "tag": "ni\u00f1as/ni\u00f1o<n><f><pl>",
+   "weight": 0.20047123014891258,
+   "reviews": 13490
+  },
+  {
+   "id": "3d69e78dafc9bb33f926626a63c580bb",
+   "text": "ella",
+   "tag": "ella/prpers<prn><tn><p3><f><sg>",
+   "weight": 0.04349729951560383,
+   "reviews": 13468
+  },
+  {
+   "id": "42d35c954b14a72e293f0505abd191b4",
+   "text": "su",
+   "tag": "su/suyo<det><pos><mf><sg>",
+   "weight": 0.21468682850064907,
+   "reviews": 13461
+  },
+  {
+   "id": "18204d89f24410e93d66889c7c7399d7",
+   "text": "no",
+   "tag": "no/no<adv>",
+   "weight": 0.10177506663378091,
+   "reviews": 13437
+  },
+  {
+   "id": "109cddf825db4d8e0d00d19b2c3cb1b3",
+   "text": "black",
+   "tag": "black/black<adj>",
+   "weight": -0.12256227870425415,
+   "reviews": 13395
+  },
+  {
+   "id": "87c0872395d39bff72bd1ab172838aea",
+   "text": "bebo",
+   "tag": "bebo/beber<vblex><pri><p1><sg>",
+   "weight": 0.09990983913285853,
+   "reviews": 13367
+  },
+  {
+   "id": "065d3cd6bc42c437f89877740698c750",
+   "text": "bebes",
+   "tag": "bebes/beber<vblex><pri><p2><sg>",
+   "weight": 0.014235114538517233,
+   "reviews": 13348
+  },
+  {
+   "id": "31fb31a4af2ad58c03d9b62222734768",
+   "text": "taste",
+   "tag": "taste/taste<n><sg>",
+   "weight": -0.10803737024846045,
+   "reviews": 13337
+  },
+  {
+   "id": "179dc23eaea411d9839e3ec0ff7dfc15",
+   "text": "turtle",
+   "tag": "turtle/turtle<n><sg>",
+   "weight": 0.0008378074209826925,
+   "reviews": 13287
+  },
+  {
+   "id": "6eee7de1f58d4033e937386469f1a5ab",
+   "text": "gar\u00e7on",
+   "tag": "gar\u00e7on/gar\u00e7on<n><m><sg>",
+   "weight": -0.09003846116195095,
+   "reviews": 13205
+  },
+  {
+   "id": "e90f0f43da00a10f3954bcd34c144e2c",
+   "text": "queso",
+   "tag": "queso/queso<n><m><sg>",
+   "weight": 0.15539021620035243,
+   "reviews": 13121
+  },
+  {
+   "id": "e7e47c0b4857fed35b942459f2028006",
+   "text": "zapatos",
+   "tag": "zapatos/zapato<n><m><pl>",
+   "weight": -0.027151437752289852,
+   "reviews": 13115
+  },
+  {
+   "id": "c89921e78c6fb1e5017bc66f3cec0aee",
+   "text": "den",
+   "tag": "den/der<det><def><m><sg><acc>",
+   "weight": -0.19123598002107764,
+   "reviews": 13082
+  },
+  {
+   "id": "7b2e60314cad24be935a55062cb7f65e",
+   "text": "newspapers",
+   "tag": "newspapers/newspaper<n><pl>",
+   "weight": -0.15361670423418178,
+   "reviews": 12916
+  },
+  {
+   "id": "fe1c2edd8cfeedbbbfafc42448e957c9",
+   "text": "spider",
+   "tag": "spider/spider<n><sg>",
+   "weight": -0.20551293861770822,
+   "reviews": 12877
+  },
+  {
+   "id": "efe85c0c9748dee0aab4a16466a37c98",
+   "text": "gatas",
+   "tag": "gatas/gato<n><f><pl>",
+   "weight": 0.09819953778611508,
+   "reviews": 12869
+  },
+  {
+   "id": "da166f3d66b929683ac6611b33a79f8a",
+   "text": "who",
+   "tag": "who/who<prn><itg><m><sp>",
+   "weight": -0.09048149379856767,
+   "reviews": 12855
+  },
+  {
+   "id": "62a992ac2a5f346b5796b3f14732130e",
+   "text": "horses",
+   "tag": "horses/horse<n><pl>",
+   "weight": -0.04097171418991716,
+   "reviews": 12772
+  },
+  {
+   "id": "8e2f03617a85d97f126dfb2293e7a368",
+   "text": "elephants",
+   "tag": "elephants/elephant<n><pl>",
+   "weight": 0.1421819470838212,
+   "reviews": 12757
+  },
+  {
+   "id": "698a096a49f8a164caa5dcbfad271fd8",
+   "text": "hombres",
+   "tag": "hombres/hombre<n><m><pl>",
+   "weight": -0.12701849658810088,
+   "reviews": 12693
+  },
+  {
+   "id": "603b7cd0d4d54eee91008645adccd258",
+   "text": "mange",
+   "tag": "mange/manger<vblex><pri><p1><sg>",
+   "weight": -0.037583243426420734,
+   "reviews": 12691
+  },
+  {
+   "id": "d3655c4c158db4993a9ae4f199d95c5e",
+   "text": "yellow",
+   "tag": "yellow/yellow<adj><sint>",
+   "weight": -0.0057782934708022786,
+   "reviews": 12667
+  },
+  {
+   "id": "a6f949fa049279ad56980bfe6cf500f4",
+   "text": "where",
+   "tag": "where/where<adv><itg>",
+   "weight": -0.053794653422199995,
+   "reviews": 12637
+  },
+  {
+   "id": "b8b55f8044c9109cc9c06da459568e7c",
+   "text": "skirt",
+   "tag": "skirt/skirt<n><sg>",
+   "weight": -0.018396302408310878,
+   "reviews": 12599
+  },
+  {
+   "id": "cc86e49e66863d159c228a7216fc5c1b",
+   "text": "va",
+   "tag": "va/aller<vblex><pri><p3><sg>",
+   "weight": -0.15331711792692257,
+   "reviews": 12562
+  },
+  {
+   "id": "9cfb037fb5bf9051645e9c7d5d336c73",
+   "text": "la",
+   "tag": "la/il<det><def><f><sg>",
+   "weight": -0.14553703231713766,
+   "reviews": 12556
+  },
+  {
+   "id": "8b6401409f89715543edb1e0c707c162",
+   "text": "sandwiches",
+   "tag": "sandwiches/sandwich<n><pl>",
+   "weight": -0.2914476245549062,
+   "reviews": 12493
+  },
+  {
+   "id": "0e69015102143c4cf0f98a23ddf01d6a",
+   "text": "aime",
+   "tag": "aime/aimer<vblex><pri><p1><sg>",
+   "weight": 0.0407865298264746,
+   "reviews": 12411
+  },
+  {
+   "id": "dffd11bf98be1b8f39a5f2ae5e8a9568",
+   "text": "pants",
+   "tag": "pants/pants<n><pl>",
+   "weight": -0.18208357720307178,
+   "reviews": 12295
+  },
+  {
+   "id": "4223f27366fc70333225b9e2ec3d2a4c",
+   "text": "tengo",
+   "tag": "tengo/tener<vblex><pri><p1><sg>",
+   "weight": 0.25453835031591826,
+   "reviews": 12173
+  },
+  {
+   "id": "25a5cb63448fad016a8eb4e3578ec3d4",
+   "text": "pollo",
+   "tag": "pollo/pollo<n><m><sg>",
+   "weight": 0.016766659482034308,
+   "reviews": 12043
+  },
+  {
+   "id": "35a54c25a2cda8127343f6a82e6f6b7d",
+   "text": "mann",
+   "tag": "mann/mann<n><m><sg><nom>",
+   "weight": -0.005135145744863849,
+   "reviews": 11999
+  },
+  {
+   "id": "2bd555878cbc70d270dee5ef42420fa6",
+   "text": "blue",
+   "tag": "blue/blue<adj>",
+   "weight": -0.08525665564515025,
+   "reviews": 11987
+  },
+  {
+   "id": "edf5a0ef6c836c4df4f3b3de76ca63ba",
+   "text": "diario",
+   "tag": "diario/diario<n><m><sg>",
+   "weight": 0.13131202654702515,
+   "reviews": 11977
+  },
+  {
+   "id": "cc996312cd47e305f8b9058d3afc958c",
+   "text": "cebolla",
+   "tag": "cebolla/cebolla<n><f><sg>",
+   "weight": -0.049155126045284464,
+   "reviews": 11935
+  },
+  {
+   "id": "85f1c68fe6ff052c94a517fc73972c71",
+   "text": "gata",
+   "tag": "gata/gato<n><f><sg>",
+   "weight": 0.2378088336670681,
+   "reviews": 11915
+  },
+  {
+   "id": "f857a8c1b24263f0b007ae82c24c008d",
+   "text": "skirts",
+   "tag": "skirts/skirt<n><pl>",
+   "weight": -0.28979948555252494,
+   "reviews": 11893
+  },
+  {
+   "id": "d7d669520d89eac36cf587ccae7681a8",
+   "text": "want",
+   "tag": "want/want<vblex><pres>",
+   "weight": 0.17214798882356527,
+   "reviews": 11823
+  },
+  {
+   "id": "ddba444a359006164704196b39c87a1b",
+   "text": "carta",
+   "tag": "carta/carta<n><f><sg>",
+   "weight": 0.09120580173437692,
+   "reviews": 11735
+  },
+  {
+   "id": "35f14d06d95a34607d6abb0e52fc6d2b",
+   "text": "caballo",
+   "tag": "caballo/caballo<n><m><sg>",
+   "weight": 0.13581348187365722,
+   "reviews": 11678
+  },
+  {
+   "id": "6b4ac7ed7cae8cd551c71d1a5b0aedc4",
+   "text": "cocino",
+   "tag": "cocino/cocinar<vblex><pri><p1><sg>",
+   "weight": 0.07988077107819644,
+   "reviews": 11675
+  },
+  {
+   "id": "0f74821da4122d27786204db337aa795",
+   "text": "elefantes",
+   "tag": "elefantes/elefante<n><m><pl>",
+   "weight": 0.08427219190878882,
+   "reviews": 11618
+  },
+  {
+   "id": "9ac50d1a5c324745349d3833e979d720",
+   "text": "green",
+   "tag": "green/green<adj><sint>",
+   "weight": 0.11500003286636105,
+   "reviews": 11535
+  },
+  {
+   "id": "4bdb859f599fa07dd5eecdab0acc2d34",
+   "text": "a",
+   "tag": "a/a<pr>",
+   "weight": 0.047973668114788134,
+   "reviews": 11485
+  },
+  {
+   "id": "781b81760d3030454f97f95d142db777",
+   "text": "with",
+   "tag": "with/with<pr>",
+   "weight": 0.06084970809149523,
+   "reviews": 11411
+  },
+  {
+   "id": "cfd0209136e56af5674beb77f8d26755",
+   "text": "jugo",
+   "tag": "jugo/jugo<n><m><sg>",
+   "weight": 0.14239915271366513,
+   "reviews": 11395
+  },
+  {
+   "id": "c042776c6e21db7522381dc8a022e74e",
+   "text": "los",
+   "tag": "los/el<det><def><m><pl>",
+   "weight": 0.21834093659114104,
+   "reviews": 11389
+  },
+  {
+   "id": "bfbd77c555aed5378a456e03e189e010",
+   "text": "il",
+   "tag": "il/il<prn><tn><p3><m><sg>",
+   "weight": -0.009289283764790858,
+   "reviews": 11345
+  },
+  {
+   "id": "a8b4c0f9fab0d467c1803f1cb90adf5d",
+   "text": "birds",
+   "tag": "birds/bird<n><pl>",
+   "weight": -0.3096395274162379,
+   "reviews": 11341
+  },
+  {
+   "id": "6466c217460079d74e1f098116fff664",
+   "text": "quiero",
+   "tag": "quiero/querer<vblex><pri><p1><sg>",
+   "weight": 0.30032386435315284,
+   "reviews": 11337
+  },
+  {
+   "id": "e5f2357532c98ffe4d56cd17b08fbb02",
+   "text": "like",
+   "tag": "like/like<vblex><pres>",
+   "weight": 0.232456947249445,
+   "reviews": 11290
+  },
+  {
+   "id": "f7dded473c36727058c6ed58f0bbd88e",
+   "text": "shoe",
+   "tag": "shoe/shoe<n><sg>",
+   "weight": -0.17466811674603994,
+   "reviews": 11249
+  },
+  {
+   "id": "64fb4435d0bd27297be2771ef6f09865",
+   "text": "you",
+   "tag": "you/prpers<prn><obj><p2><mf><sp>",
+   "weight": -0.12343413588412118,
+   "reviews": 11230
+  },
+  {
+   "id": "26f6b357718b150404303812a222e348",
+   "text": "robe",
+   "tag": "robe/robe<n><f><sg>",
+   "weight": -0.02430862457201418,
+   "reviews": 11227
+  },
+  {
+   "id": "a9d9e40ec966f6bf6a78080d8d1947ac",
+   "text": "lait",
+   "tag": "lait/lait<n><m><sg>",
+   "weight": 0.016691291989354387,
+   "reviews": 11222
+  },
+  {
+   "id": "e4f82622081279ba8af9b7cd6b43259c",
+   "text": "meat",
+   "tag": "meat/meat<n><sg>",
+   "weight": -0.04814519375828979,
+   "reviews": 11136
+  },
+  {
+   "id": "3d65e220a74477fe08facff1a0d9a303",
+   "text": "dresses",
+   "tag": "dresses/dress<n><pl>",
+   "weight": -0.06317950597723163,
+   "reviews": 11111
+  },
+  {
+   "id": "890f121972386ce1dbb811304e774f3f",
+   "text": "comida",
+   "tag": "comida/comida<n><f><sg>",
+   "weight": 0.03639093623680405,
+   "reviews": 11087
+  },
+  {
+   "id": "4fcb6bb8e44d7b618999721071862827",
+   "text": "m\u00e4dchen",
+   "tag": "m\u00e4dchen/m\u00e4dchen<n><nt><sg><nom>",
+   "weight": 0.10318101501752931,
+   "reviews": 11043
+  },
+  {
+   "id": "ff340c09240b4617358d4dcb2cb46439",
+   "text": "huevo",
+   "tag": "huevo/huevo<n><m><sg>",
+   "weight": 0.02897978883273747,
+   "reviews": 11037
+  },
+  {
+   "id": "07605081e461f8cc70d0e27a91d1ba37",
+   "text": "tortugas",
+   "tag": "tortugas/tortuga<n><f><pl>",
+   "weight": 0.05237791171565269,
+   "reviews": 11024
+  },
+  {
+   "id": "f0afde011fdbd05f904638cd2776d722",
+   "text": "lei",
+   "tag": "lei/lui<prn><tn><p3><f><sg>",
+   "weight": -0.21425639883367864,
+   "reviews": 11009
+  },
+  {
+   "id": "fe5f98df899d5d233240fffa99ee12fa",
+   "text": "con",
+   "tag": "con/con<pr>",
+   "weight": 0.169891765577768,
+   "reviews": 10996
+  },
+  {
+   "id": "0e9f09196d4abc6a5ae82dd6d8772c95",
+   "text": "tail",
+   "tag": "tail/tail<n><sg>",
+   "weight": -0.4614969426527946,
+   "reviews": 10989
+  },
+  {
+   "id": "6ba01745092659e2dca6f3101bb7529b",
+   "text": "camisas",
+   "tag": "camisas/camisa<n><f><pl>",
+   "weight": 0.0011403820038409203,
+   "reviews": 10780
+  },
+  {
+   "id": "6c4aa305e6c755000f52f3af133c8ce2",
+   "text": "una",
+   "tag": "una/un<det><ind><f><sg>",
+   "weight": -0.26916125011256664,
+   "reviews": 10770
+  },
+  {
+   "id": "f4e41e590043babe16f64ac5639430aa",
+   "text": "ragazza",
+   "tag": "ragazza/ragazzo<n><f><sg>",
+   "weight": -0.17324338498479086,
+   "reviews": 10755
+  },
+  {
+   "id": "733404922a439bcf40584b61a027a3f9",
+   "text": "coat",
+   "tag": "coat/coat<n><sg>",
+   "weight": -0.09103948018065428,
+   "reviews": 10727
+  },
+  {
+   "id": "4d77de913dc3d65f1c9fac9d1c349684",
+   "text": "en",
+   "tag": "en/en<pr>",
+   "weight": 0.1884347845421185,
+   "reviews": 10704
+  },
+  {
+   "id": "4484596464a7bc250ccc3e48d5e8d7e9",
+   "text": "il",
+   "tag": "il/il<det><def><m><sg>",
+   "weight": -0.19922653651531094,
+   "reviews": 10669
+  },
+  {
+   "id": "e1cb11fdf2945f82d2b10832bbc6e6dc",
+   "text": "naranja",
+   "tag": "naranja/naranja<n><f><sg>",
+   "weight": 0.06436564346863485,
+   "reviews": 10610
+  },
+  {
+   "id": "55cc2386d20ceea622e7c218e7f5cb0c",
+   "text": "elefante",
+   "tag": "elefante/elefante<n><m><sg>",
+   "weight": 0.15194902882817563,
+   "reviews": 10608
+  },
+  {
+   "id": "a631b8e67d1dbf4c94cc73644ddf2a56",
+   "text": "tus",
+   "tag": "tus/tuyo<det><pos><mf><pl>",
+   "weight": 0.19921982404771055,
+   "reviews": 10595
+  },
+  {
+   "id": "7d22860d8b51d67c932fe10dfce59dc2",
+   "text": "tomate",
+   "tag": "tomate/tomate<n><m><sg>",
+   "weight": 0.12041130040032733,
+   "reviews": 10593
+  },
+  {
+   "id": "f3c7297e32f4bf16d315ea5982e950c2",
+   "text": "noir",
+   "tag": "noir/noir<adj><m><sg>",
+   "weight": 0.03134175357242159,
+   "reviews": 10470
+  },
+  {
+   "id": "65f61449087b9dbb2083da5a93210fd0",
+   "text": "las",
+   "tag": "las/el<det><def><f><pl>",
+   "weight": 0.20429553460730993,
+   "reviews": 10465
+  },
+  {
+   "id": "d343fa9686b06251e151ea166773da32",
+   "text": "ustedes",
+   "tag": "ustedes/prpers<prn><tn><p3><mf><pl>",
+   "weight": 0.023105106760459394,
+   "reviews": 10463
+  },
+  {
+   "id": "fec119369ceb49cb5b6d72a58c3e770e",
+   "text": "lui",
+   "tag": "lui/lui<prn><tn><p3><m><sg>",
+   "weight": -0.13967358047337772,
+   "reviews": 10420
+  },
+  {
+   "id": "4daf95de94354cb42e50957b96a745d8",
+   "text": "of",
+   "tag": "of/of<pr>",
+   "weight": 0.1185670542078554,
+   "reviews": 10420
+  },
+  {
+   "id": "751cef71758f92e031ad696122464d2f",
+   "text": "gatos",
+   "tag": "gatos/gato<n><m><pl>",
+   "weight": 0.07169133594315145,
+   "reviews": 10352
+  },
+  {
+   "id": "0bc5f4a19bfb7338b2b821e211ee2dde",
+   "text": "its",
+   "tag": "its/its<det><pos><sp>",
+   "weight": -0.20071946300935348,
+   "reviews": 10351
+  },
+  {
+   "id": "341c91dfabbda45c7323930090c25d52",
+   "text": "almuerzo",
+   "tag": "almuerzo/almuerzo<n><m><sg>",
+   "weight": -0.024252965803387833,
+   "reviews": 10327
+  },
+  {
+   "id": "59802924354797797d645bb352dd916b",
+   "text": "cerveza",
+   "tag": "cerveza/cerveza<n><f><sg>",
+   "weight": 0.0006315803721203289,
+   "reviews": 10312
+  },
+  {
+   "id": "146fa232459ae25f817416576569a73e",
+   "text": "ce",
+   "tag": "ce/ce<prn><tn><nt>",
+   "weight": 0.0263349170944221,
+   "reviews": 10310
+  },
+  {
+   "id": "0ed4e535d399f10f462b2f1e51b97d3f",
+   "text": "animals",
+   "tag": "animals/animal<n><pl>",
+   "weight": -0.12269993652526441,
+   "reviews": 10280
+  },
+  {
+   "id": "8a983364dfa0384768234c9b8f843a6d",
+   "text": "papa",
+   "tag": "papa/papa<n><f><sg>",
+   "weight": 0.004541234115237908,
+   "reviews": 10278
+  },
+  {
+   "id": "76c9aa3651946b2f4f325001a7e6262c",
+   "text": "un",
+   "tag": "un/un<det><ind><m><sg>",
+   "weight": -0.2505925030277715,
+   "reviews": 10272
+  },
+  {
+   "id": "5fbb4578c6e08d3122b2321720d682d7",
+   "text": "leemos",
+   "tag": "leemos/leer<vblex><pri><p1><pl>",
+   "weight": 0.23556873582808588,
+   "reviews": 10269
+  },
+  {
+   "id": "a296a278d774a2987ef34a4a463cbce5",
+   "text": "tiene",
+   "tag": "tiene/tener<vblex><pri><p3><sg>",
+   "weight": 0.23306225918639695,
+   "reviews": 10211
+  },
+  {
+   "id": "300af9de3ca46c837e194f0f83ac3885",
+   "text": "mujeres",
+   "tag": "mujeres/mujer<n><f><pl>",
+   "weight": -0.06399637444786971,
+   "reviews": 10173
+  },
+  {
+   "id": "a64384bb8eb33c72b1b6eead0a5cc56f",
+   "text": "fresa",
+   "tag": "fresa/fresa<n><f><sg>",
+   "weight": 0.03081295858786434,
+   "reviews": 10166
+  },
+  {
+   "id": "c00649d7a795a4ad88d646ecab3cc07d",
+   "text": "has",
+   "tag": "has/have<vblex><pri><p3><sg>",
+   "weight": 0.12481580646068809,
+   "reviews": 10162
+  },
+  {
+   "id": "fc37775015029e1d39f073eda2852b82",
+   "text": "ducks",
+   "tag": "ducks/duck<n><pl>",
+   "weight": -0.2283502560645521,
+   "reviews": 10149
+  },
+  {
+   "id": "2d7715db3b4a525d703dee6e80e38c6a",
+   "text": "plates",
+   "tag": "plates/plate<n><pl>",
+   "weight": -0.09019912738483998,
+   "reviews": 10142
+  },
+  {
+   "id": "9443f902cdcf9f4da3b5f58d3f657efe",
+   "text": "you",
+   "tag": "you/prpers<@ij:thank_you>",
+   "weight": 0.12048603297099895,
+   "reviews": 10055
+  },
+  {
+   "id": "ea33cb20c4bf46c0913a66e0738b2eda",
+   "text": "what",
+   "tag": "what/what<prn><itg><m><sp>",
+   "weight": -0.1673381092146942,
+   "reviews": 10041
+  },
+  {
+   "id": "4a557863511d1e6df34858d5b7b4a246",
+   "text": "p\u00e1jaro",
+   "tag": "p\u00e1jaro/p\u00e1jaro<n><m><sg>",
+   "weight": -0.1397283589591172,
+   "reviews": 9929
+  },
+  {
+   "id": "8d97dc81cb3844281262ee45b3d33f3c",
+   "text": "fruta",
+   "tag": "fruta/fruta<n><f><sg>",
+   "weight": 0.16779822085488474,
+   "reviews": 9914
+  },
+  {
+   "id": "05b4e4c3500b553a2439c810f0771392",
+   "text": "pato",
+   "tag": "pato/pato<n><m><sg>",
+   "weight": 0.008297685809011576,
+   "reviews": 9870
+  },
+  {
+   "id": "730b0cea8ba72488da248501583b0ea3",
+   "text": "bois",
+   "tag": "bois/boire<vblex><pri><p2><sg>",
+   "weight": -0.011398164945924012,
+   "reviews": 9852
+  },
+  {
+   "id": "caaea1433a04b31cbb4fd926ca77ad02",
+   "text": "donna",
+   "tag": "donna/donna<n><f><sg>",
+   "weight": -0.16125850650516912,
+   "reviews": 9843
+  },
+  {
+   "id": "07316479491134dbe29d337782103cab",
+   "text": "sombrero",
+   "tag": "sombrero/sombrero<n><m><sg>",
+   "weight": 0.014835725791764494,
+   "reviews": 9842
+  },
+  {
+   "id": "22e3fc5f089cf47dae927dfddcce2844",
+   "text": "ellos",
+   "tag": "ellos/prpers<prn><tn><p3><m><pl>",
+   "weight": 0.005104627973356466,
+   "reviews": 9835
+  },
+  {
+   "id": "08bb4120ecb09c3cc4a544af3f119f6d",
+   "text": "pasta",
+   "tag": "pasta/pasta<n><f><sg>",
+   "weight": 0.14702810039965028,
+   "reviews": 9828
+  },
+  {
+   "id": "b43239f837356c525ca7d743d83fbf57",
+   "text": "livre",
+   "tag": "livre/livre<n><m><sg>",
+   "weight": -0.10909080726128437,
+   "reviews": 9820
+  },
+  {
+   "id": "c032182c0ffb744c963ec83c937a26f4",
+   "text": "us",
+   "tag": "us/prpers<prn><obj><p1><mf><pl>",
+   "weight": 0.09992629050046738,
+   "reviews": 9819
+  },
+  {
+   "id": "f9d3186a3a829083942aa09a75d1aae6",
+   "text": "leen",
+   "tag": "leen/leer<vblex><pri><p3><pl>",
+   "weight": 0.21158202812738167,
+   "reviews": 9798
+  },
+  {
+   "id": "608ad881489ab4fa4117a91ebd83d502",
+   "text": "coats",
+   "tag": "coats/coat<n><pl>",
+   "weight": 0.13851442502379638,
+   "reviews": 9798
+  },
+  {
+   "id": "f423850a19d3a8b7f7c206c2a9dfa733",
+   "text": "persona",
+   "tag": "persona/persona<n><f><sg>",
+   "weight": 0.14017092177618634,
+   "reviews": 9761
+  },
+  {
+   "id": "a8a620e1310deb6282fec185918acad1",
+   "text": "bebemos",
+   "tag": "bebemos/beber<vblex><pri><p1><pl>",
+   "weight": 0.15939186743295505,
+   "reviews": 9733
+  },
+  {
+   "id": "42a04e2ae9d5fa727980f034f19ae877",
+   "text": "why",
+   "tag": "why/why<adv><itg>",
+   "weight": -0.08511743642289774,
+   "reviews": 9672
+  },
+  {
+   "id": "235cfb740a5e1bb87b24cab385a8470d",
+   "text": "menu",
+   "tag": "menu/menu<n><m><sg>",
+   "weight": 0.017745132317947925,
+   "reviews": 9670
+  },
+  {
+   "id": "2a94c2ba4da5dfbdb5d23703e11646fe",
+   "text": "caballos",
+   "tag": "caballos/caballo<n><m><pl>",
+   "weight": 0.1468472667627539,
+   "reviews": 9659
+  },
+  {
+   "id": "d3619a3e50c3b522703d66166855d3bf",
+   "text": "'",
+   "tag": "'/'<apos>",
+   "weight": -0.14629406865431333,
+   "reviews": 9629
+  },
+  {
+   "id": "bfb6c681b3a663e8586cb4b875e80ea2",
+   "text": "what",
+   "tag": "what/what<det><itg><sp>",
+   "weight": -0.013431951561270567,
+   "reviews": 9613
+  },
+  {
+   "id": "fe7960892696186fec5d63a0a46edd10",
+   "text": "zucchero",
+   "tag": "zucchero/zucchero<n><m><sg>",
+   "weight": -0.16748450807116616,
+   "reviews": 9603
+  },
+  {
+   "id": "d64b11ab44cc6fa1b32ce3d4998bd5af",
+   "text": "p\u00e1jaros",
+   "tag": "p\u00e1jaros/p\u00e1jaro<n><m><pl>",
+   "weight": -0.0400648082847177,
+   "reviews": 9535
+  },
+  {
+   "id": "2ca57053774396953fc2c5d4bdaa2205",
+   "text": "men\u00fa",
+   "tag": "men\u00fa/men\u00fa<n><m><sg>",
+   "weight": -0.12668229839726997,
+   "reviews": 9499
+  },
+  {
+   "id": "fae183cfa6a19d79e500f55f55775e68",
+   "text": "nosotras",
+   "tag": "nosotras/prpers<prn><tn><p1><f><pl>",
+   "weight": -0.12397390350301017,
+   "reviews": 9445
+  },
+  {
+   "id": "a5acd980d17d726d1c99e7b974d3f52d",
+   "text": "for",
+   "tag": "for/for<pr>",
+   "weight": 0.1705675082252923,
+   "reviews": 9398
+  },
+  {
+   "id": "e09b138d58a98c83f120ffbc898ce818",
+   "text": "at",
+   "tag": "at/at<pr>",
+   "weight": 0.1921836364503939,
+   "reviews": 9359
+  },
+  {
+   "id": "cc01ee792b3eb9009d0af8185bd5bc7f",
+   "text": "zeitung",
+   "tag": "zeitung/zeitung<n><f><sg><acc>",
+   "weight": -0.06680347157490972,
+   "reviews": 9342
+  },
+  {
+   "id": "b463895af72578dcff1d4ea2bb9eda76",
+   "text": "escriben",
+   "tag": "escriben/escribir<vblex><pri><p3><pl>",
+   "weight": 0.09376543204692776,
+   "reviews": 9335
+  },
+  {
+   "id": "62a090db014ab03963712da6c4a76f13",
+   "text": "rouge",
+   "tag": "rouge/rouge<adj><mf><sg>",
+   "weight": 0.09513197559078106,
+   "reviews": 9332
+  },
+  {
+   "id": "81fe07635e2aa79cd36709cf1bdd81be",
+   "text": "lim\u00f3n",
+   "tag": "lim\u00f3n/lim\u00f3n<n><m><sg>",
+   "weight": 0.01597530468621545,
+   "reviews": 9323
+  },
+  {
+   "id": "60ca04f13f84bd807301e4407f7b6f18",
+   "text": "loro",
+   "tag": "loro/lui<prn><tn><p3><mf><pl>",
+   "weight": -0.10260219616373481,
+   "reviews": 9304
+  },
+  {
+   "id": "aaa5edb86012a89ad96f0fe29b952ee7",
+   "text": "ellas",
+   "tag": "ellas/prpers<prn><tn><p3><f><pl>",
+   "weight": 0.09470979460333791,
+   "reviews": 9239
+  },
+  {
+   "id": "4e2d55b6054492c18e7c6090bf577d6d",
+   "text": "tortuga",
+   "tag": "tortuga/tortuga<n><f><sg>",
+   "weight": 0.06016144772263057,
+   "reviews": 9176
+  },
+  {
+   "id": "1a913f2ded424985b9c02d0436008511",
+   "text": "leo",
+   "tag": "leo/leer<vblex><pri><p1><sg>",
+   "weight": 0.17990451938213017,
+   "reviews": 9104
+  },
+  {
+   "id": "e35dd18fb95a8b59046eec582942fa64",
+   "text": "thanks",
+   "tag": "thanks/thanks<ij>",
+   "weight": 0.1939696238900283,
+   "reviews": 9097
+  },
+  {
+   "id": "9cbe4ff448a888bb327e212e6bb89b72",
+   "text": "d\u00f3nde",
+   "tag": "d\u00f3nde/d\u00f3nde<adv><itg>",
+   "weight": 0.04229749252683378,
+   "reviews": 9033
+  },
+  {
+   "id": "20dde14c9907e353804d0de13f198543",
+   "text": "esse",
+   "tag": "esse/essen<vblex><pri><p1><sg>",
+   "weight": 0.08280009231857868,
+   "reviews": 9026
+  },
+  {
+   "id": "61a79f5fa8e435f50ff6df1df8748f13",
+   "text": "manzanas",
+   "tag": "manzanas/manzana<n><f><pl>",
+   "weight": 0.09771822327077945,
+   "reviews": 9011
+  },
+  {
+   "id": "2199c2e34a246811ededdd765f1933ce",
+   "text": "animales",
+   "tag": "animales/animal<n><m><pl>",
+   "weight": 0.026466172649033143,
+   "reviews": 8998
+  },
+  {
+   "id": "d34dd0c4df69ca91b277730638b12a4a",
+   "text": "gracias",
+   "tag": "gracias/gracias<ij>",
+   "weight": 0.07151673558354935,
+   "reviews": 8994
+  },
+  {
+   "id": "46cd21495035f225d4fe8fc8552badc0",
+   "text": "apfel",
+   "tag": "apfel/apfel<n><m><sg><acc>",
+   "weight": -0.12024576016276069,
+   "reviews": 8985
+  },
+  {
+   "id": "b85dad780881cd3228297b78258a96bf",
+   "text": "pantalones",
+   "tag": "pantalones/pantal\u00f3n<n><m><pl>",
+   "weight": -0.08199508500515272,
+   "reviews": 8940
+  },
+  {
+   "id": "cf8e43e702a64ce89e4cc4e3ee7e08cd",
+   "text": "noire",
+   "tag": "noire/noir<adj><f><sg>",
+   "weight": -0.2157344610104423,
+   "reviews": 8930
+  },
+  {
+   "id": "f9fb279a9bd8900d84965a3296c4f746",
+   "text": "vestidos",
+   "tag": "vestidos/vestido<n><m><pl>",
+   "weight": -0.03550109673254595,
+   "reviews": 8904
+  },
+  {
+   "id": "9c976cff2586b5effd397d7905eb7074",
+   "text": "camisa",
+   "tag": "camisa/camisa<n><f><sg>",
+   "weight": -0.005253043782365796,
+   "reviews": 8889
+  },
+  {
+   "id": "6d67c94cb5df94bae1d8f5f101db72a7",
+   "text": "dress",
+   "tag": "dress/dress<n><sg>",
+   "weight": -0.18202984224881807,
+   "reviews": 8864
+  },
+  {
+   "id": "41e6f9b46214faa29fba6d9f552d7960",
+   "text": "patos",
+   "tag": "patos/pato<n><m><pl>",
+   "weight": 0.0311276244092624,
+   "reviews": 8859
+  },
+  {
+   "id": "2183326772866ddd4f488440d562991b",
+   "text": "sopa",
+   "tag": "sopa/sopa<n><f><sg>",
+   "weight": 0.08811237821204897,
+   "reviews": 8857
+  },
+  {
+   "id": "e798121b0afe8d3c2fdb0bac9be6757c",
+   "text": "ma",
+   "tag": "ma/mon<det><pos><f><sg>",
+   "weight": 0.14886787459671424,
+   "reviews": 8856
+  },
+  {
+   "id": "e37fcbae8d8e101dabacbd1e4223b14b",
+   "text": "sleeps",
+   "tag": "sleeps/sleep<vblex><pri><p3><sg>",
+   "weight": 0.28317309560481,
+   "reviews": 8854
+  },
+  {
+   "id": "460df3319771193f63a3f4bb5a5eeef6",
+   "text": "them",
+   "tag": "them/prpers<prn><obj><p3><mf><pl>",
+   "weight": -0.197091619440533,
+   "reviews": 8829
+  },
+  {
+   "id": "4df8751ce60bec32b9571bf5648c40bd",
+   "text": "az\u00facar",
+   "tag": "az\u00facar/az\u00facar<n><m><sg>",
+   "weight": 0.032742034091226155,
+   "reviews": 8793
+  },
+  {
+   "id": "46b112cd07fdcc98db8670a5d71c613d",
+   "text": "sie",
+   "tag": "sie/sie<prn><p3><f><sg><nom>",
+   "weight": 0.054804119549152194,
+   "reviews": 8789
+  },
+  {
+   "id": "b838f789252678299b0413df4b3d0ad9",
+   "text": "hola",
+   "tag": "hola/hola<ij>",
+   "weight": 0.06299866099573298,
+   "reviews": 8777
+  },
+  {
+   "id": "418101d9be14cf5e53ad57ac4f8f4258",
+   "text": "sono",
+   "tag": "sono/essere<vbser><pri><p1><sg>",
+   "weight": -0.4292031007779488,
+   "reviews": 8725
+  },
+  {
+   "id": "7e6d656a6c38aca23d98acc796a35720",
+   "text": "beve",
+   "tag": "beve/bere<vblex><pri><p3><sg>",
+   "weight": -0.14418883340659297,
+   "reviews": 8724
+  },
+  {
+   "id": "47692db0120d603dc27a1881fe41c5e8",
+   "text": "tienen",
+   "tag": "tienen/tener<vblex><pri><p3><pl>",
+   "weight": 0.25934765237599894,
+   "reviews": 8711
+  },
+  {
+   "id": "803fb3436c1cd9be8aeef58b5698083d",
+   "text": "her",
+   "tag": "her/prpers<prn><obj><p3><f><sg>",
+   "weight": 0.08400827026583389,
+   "reviews": 8706
+  },
+  {
+   "id": "5de541943c119590cd3b725f0882afeb",
+   "text": "walks",
+   "tag": "walks/walk<vblex><pri><p3><sg>",
+   "weight": 0.17905891926578085,
+   "reviews": 8688
+  },
+  {
+   "id": "c76b4333fe84d57cce3a1e3c4101d21b",
+   "text": "du",
+   "tag": "du/du<prn><p2><mf><sg><nom>",
+   "weight": -0.03867436514228521,
+   "reviews": 8617
+  },
+  {
+   "id": "4c998c157e95ac0978968b1de762afbc",
+   "text": "how",
+   "tag": "how/how<adv><itg>",
+   "weight": -0.0028121864190355085,
+   "reviews": 8580
+  },
+  {
+   "id": "b5703f031d95869a0e1145e2ac6fbc6c",
+   "text": "father",
+   "tag": "father/father<n><sg>",
+   "weight": 0.03303202083006914,
+   "reviews": 8573
+  },
+  {
+   "id": "a18e94e6d95abfb6d23e941ef0132505",
+   "text": "adi\u00f3s",
+   "tag": "adi\u00f3s/adi\u00f3s<ij>",
+   "weight": -0.02828508048867883,
+   "reviews": 8571
+  },
+  {
+   "id": "cd45fde46e20ce737f504b714b001956",
+   "text": "sal",
+   "tag": "sal/sal<n><f><sg>",
+   "weight": -0.20518345584258288,
+   "reviews": 8571
+  },
+  {
+   "id": "a94a938b71c9bd3352c0811cb5f94d72",
+   "text": "which",
+   "tag": "which/which<det><itg><sp>",
+   "weight": -0.24722702015013465,
+   "reviews": 8563
+  },
+  {
+   "id": "710b68d3c21cf9ac44218b554a5360dd",
+   "text": "merci",
+   "tag": "merci/merci<ij>",
+   "weight": -0.07814435728363262,
+   "reviews": 8535
+  },
+  {
+   "id": "72dd832895dd783a3cf7ce4b4788efe3",
+   "text": "falda",
+   "tag": "falda/falda<n><f><sg>",
+   "weight": -0.03736856303353902,
+   "reviews": 8503
+  },
+  {
+   "id": "58dc623cb7357e51b20768411843bde1",
+   "text": "disculpe",
+   "tag": "disculpe/disculparse<vblex><pron><prs><p3><sg>",
+   "weight": -0.03944261515533915,
+   "reviews": 8476
+  },
+  {
+   "id": "4f6c223d0ff30bc272dc9ec0f2d755e5",
+   "text": "on",
+   "tag": "on/on<pr>",
+   "weight": 0.19010807987681927,
+   "reviews": 8447
+  },
+  {
+   "id": "56429751fdaedb6e491f4795c770f5a4",
+   "text": "der",
+   "tag": "der/der<det><def><m><sg><nom>",
+   "weight": 0.03623387138363418,
+   "reviews": 8445
+  },
+  {
+   "id": "98b3a185ebdc3c67727d2d1f01094ac6",
+   "text": "mangia",
+   "tag": "mangia/mangiare<vblex><pri><p3><sg>",
+   "weight": -0.21246039172302186,
+   "reviews": 8422
+  },
+  {
+   "id": "76af5c5ed20bd7a7c597e6f33a37ccbd",
+   "text": "mit",
+   "tag": "mit/mit<pr><dat>",
+   "weight": 0.01363312146555473,
+   "reviews": 8411
+  },
+  {
+   "id": "cb9b44daeb2fd896731bcdef127db8c3",
+   "text": "nuestros",
+   "tag": "nuestros/nuestro<det><pos><m><pl>",
+   "weight": 0.18126878982633132,
+   "reviews": 8387
+  },
+  {
+   "id": "0d7c3234513eea5a732f05f93e8302aa",
+   "text": "meal",
+   "tag": "meal/meal<n><sg>",
+   "weight": 0.07138826507188913,
+   "reviews": 8373
+  },
+  {
+   "id": "bc132fa899e138377a3d89eb3125a2f1",
+   "text": "habe",
+   "tag": "habe/haben<vbhaver><pri><p1><sg>",
+   "weight": 0.14504704589734432,
+   "reviews": 8310
+  },
+  {
+   "id": "72ac32e511cb2ddda42c564cc97276ef",
+   "text": "cena",
+   "tag": "cena/cena<n><f><sg>",
+   "weight": -0.18281970723070043,
+   "reviews": 8287
+  },
+  {
+   "id": "bdb10c2d4f793986f32986d746051a59",
+   "text": "fresas",
+   "tag": "fresas/fresa<n><f><pl>",
+   "weight": -0.03960182058626491,
+   "reviews": 8246
+  },
+  {
+   "id": "ad2c56f95c8646373906ccb638c5aa8a",
+   "text": "que",
+   "tag": "que/que<cnjsub>",
+   "weight": 0.15357349849335797,
+   "reviews": 8244
+  },
+  {
+   "id": "294c3d3483a5ecb9dcd61f9c26100d87",
+   "text": "bois",
+   "tag": "bois/boire<vblex><pri><p1><sg>",
+   "weight": -0.06725908144833476,
+   "reviews": 8243
+  },
+  {
+   "id": "1df466a5f2f77b430fa30f7e366404ef",
+   "text": "cartas",
+   "tag": "cartas/carta<n><f><pl>",
+   "weight": 0.09945406113893247,
+   "reviews": 8221
+  },
+  {
+   "id": "78431f2c8e07c9d5bce403d94cfecb83",
+   "text": "s\u00ed",
+   "tag": "s\u00ed/s\u00ed<adv>",
+   "weight": 0.003653541893512548,
+   "reviews": 8221
+  },
+  {
+   "id": "819893931391551b79525db409181547",
+   "text": "essen",
+   "tag": "essen/essen<vblex><pri><p3><pl>",
+   "weight": -0.03084844162286114,
+   "reviews": 8210
+  },
+  {
+   "id": "3f60e879bd40b3e9d261375fd25f93cd",
+   "text": "padre",
+   "tag": "padre/padre<n><m><sg>",
+   "weight": 0.1918665732794047,
+   "reviews": 8201
+  },
+  {
+   "id": "fd4fdcf2b405811203e523f09c95a6ce",
+   "text": "j'",
+   "tag": "j'/je<prn><tn><p1><mf><sg>",
+   "weight": 0.10698411625375778,
+   "reviews": 8184
+  },
+  {
+   "id": "5c1f70dd4ac671161963d4adbd17d725",
+   "text": "clothes",
+   "tag": "clothes/clothes<n><pl>",
+   "weight": -0.3580210360210386,
+   "reviews": 8150
+  },
+  {
+   "id": "2dfe022dbb72b561bf0a34ac768502b3",
+   "text": "escribo",
+   "tag": "escribo/escribir<vblex><pri><p1><sg>",
+   "weight": 0.2851530935936564,
+   "reviews": 8141
+  },
+  {
+   "id": "bcf9480ad551253c8f836017c9de8bd1",
+   "text": "avons",
+   "tag": "avons/avoir<vblex><pri><p1><pl>",
+   "weight": 0.2294317453015188,
+   "reviews": 8084
+  },
+  {
+   "id": "11d02829b51e0f162d853c969a91a30a",
+   "text": "cangrejo",
+   "tag": "cangrejo/cangrejo<n><m><sg>",
+   "weight": -0.14371471202758226,
+   "reviews": 8078
+  },
+  {
+   "id": "8dcd4dc7ae4f7461f0fc262a87606e64",
+   "text": "non",
+   "tag": "non/non<adv>",
+   "weight": -0.0587308142060114,
+   "reviews": 8013
+  },
+  {
+   "id": "5e5a51e875ae5efb092ae84d99babc56",
+   "text": "ich",
+   "tag": "ich/ich<prn><p1><mf><sg><nom>",
+   "weight": -0.049112212533624654,
+   "reviews": 7987
+  },
+  {
+   "id": "aaf58e27968fec878d5a055ba7475be3",
+   "text": "when",
+   "tag": "when/when<adv><itg>",
+   "weight": -0.0855444929188328,
+   "reviews": 7956
+  },
+  {
+   "id": "441857f7da4711b20fe8ed04b952cf14",
+   "text": "lehrer",
+   "tag": "lehrer/lehrer<n><m><sg><nom>",
+   "weight": 0.15940817950839808,
+   "reviews": 7933
+  },
+  {
+   "id": "9a923eb44d7eab8152760002d9100c7a",
+   "text": "sus",
+   "tag": "sus/suyo<det><pos><mf><pl>",
+   "weight": 0.29126979769302347,
+   "reviews": 7928
+  },
+  {
+   "id": "ecd5cdac269b038dbbd2331238536efc",
+   "text": "animal",
+   "tag": "animal/animal<n><m><sg>",
+   "weight": -0.06720166219814948,
+   "reviews": 7902
+  },
+  {
+   "id": "a142dd0d11d54e044e4b66f65953b0a7",
+   "text": "sont",
+   "tag": "sont/\u00eatre<vbser><pri><p3><pl>",
+   "weight": 0.15933070458828968,
+   "reviews": 7883
+  },
+  {
+   "id": "1740e6b68fd04f1f127d183b42cac2ac",
+   "text": "carne",
+   "tag": "carne/carne<n><f><sg>",
+   "weight": 0.037891749901736715,
+   "reviews": 7877
+  },
+  {
+   "id": "78c25a8b1ab23f9182c4d839aef0e7f4",
+   "text": "oso",
+   "tag": "oso/oso<n><m><sg>",
+   "weight": 0.03345358790056263,
+   "reviews": 7829
+  },
+  {
+   "id": "d6e120bd59e4eb7133c80028f4605cc2",
+   "text": "rojos",
+   "tag": "rojos/rojo<adj><m><pl>",
+   "weight": 0.14736497685875105,
+   "reviews": 7808
+  },
+  {
+   "id": "905beb33d0724056cf9f5fdaedf5ea3f",
+   "text": "sei",
+   "tag": "sei/essere<vbser><pri><p2><sg>",
+   "weight": -0.3211109198279169,
+   "reviews": 7791
+  },
+  {
+   "id": "a86e2a4fcacb8e686c9b01bafbe4783c",
+   "text": "ping\u00fcino",
+   "tag": "ping\u00fcino/ping\u00fcino<n><m><sg>",
+   "weight": -0.028275820447173427,
+   "reviews": 7775
+  },
+  {
+   "id": "ccacc503fbab964215a09975ded9052f",
+   "text": "dem",
+   "tag": "dem/der<det><def><m><sg><dat>",
+   "weight": 0.034642583809390295,
+   "reviews": 7767
+  },
+  {
+   "id": "7b5af39f73b05b5646396d85314a436e",
+   "text": "write",
+   "tag": "write/write<vblex><pres>",
+   "weight": 0.14203066999710914,
+   "reviews": 7753
+  },
+  {
+   "id": "f9f82239f935c01a23b0b2119af257ce",
+   "text": "abrigos",
+   "tag": "abrigos/abrigo<n><m><pl>",
+   "weight": -0.08238703220111974,
+   "reviews": 7725
+  },
+  {
+   "id": "a6d0c2d14b1f6261741d7840542f7022",
+   "text": "writes",
+   "tag": "writes/write<vblex><pri><p3><sg>",
+   "weight": 0.0602477424568512,
+   "reviews": 7668
+  },
+  {
+   "id": "78b9b97a0aaf3ce9102280144c693fd5",
+   "text": "'s",
+   "tag": "'s/'s<gen>",
+   "weight": -0.1384277874584732,
+   "reviews": 7663
+  },
+  {
+   "id": "ec64f661f408f055c9941aa00117c638",
+   "text": "boit",
+   "tag": "boit/boire<vblex><pri><p3><sg>",
+   "weight": -0.17116700356350878,
+   "reviews": 7651
+  },
+  {
+   "id": "487ce8262508986af0cba5beeb89e127",
+   "text": "whose",
+   "tag": "whose/whose<prn><itg><mf><sp>",
+   "weight": -0.22898961813031604,
+   "reviews": 7620
+  },
+  {
+   "id": "88d32763695c33d85f3e8af4bb09b6ee",
+   "text": "ara\u00f1a",
+   "tag": "ara\u00f1a/ara\u00f1a<n><f><sg>",
+   "weight": -0.09470243922624776,
+   "reviews": 7591
+  }
+ ]
+}

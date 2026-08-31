@@ -1,0 +1,29 @@
+{
+ "train_reviews": 10243562,
+ "test_reviews": 1279602,
+ "split": "by learner, 80/10/10 train/validation/test (no learner spans two sets)",
+ "eval_split": "test",
+ "mean_recall": 0.8957741580284002,
+ "models": {
+  "hlr": {
+   "mae_recall": 0.12075082122104931,
+   "mae_half_life_days": 116.32688908696892,
+   "auc": 0.5405268570882856
+  },
+  "leitner": {
+   "mae_recall": 0.22236748825918676,
+   "mae_half_life_days": 147.3817254940202,
+   "auc": 0.5496071422613067
+  },
+  "pimsleur": {
+   "mae_recall": 0.4366814011476339,
+   "mae_half_life_days": 154.31956993577936,
+   "auc": 0.5275146769139045
+  },
+  "constant": {
+   "mae_recall": 0.1726605113912016,
+   "mae_half_life_days": null,
+   "auc": 0.5
+  }
+ }
+}
