@@ -1,7 +1,12 @@
 (async () => {
+  const load = async (path) => {
+    const response = await fetch(path);
+    if (!response.ok) throw new Error("Demo data unavailable");
+    return response.json();
+  };
   const [model, results] = await Promise.all([
-    fetch("model.json").then((r) => r.json()),
-    fetch("results.json").then((r) => r.json()),
+    load("model.json"),
+    load("results.json"),
   ]);
 
   const MIN_H = 15 / (24 * 60), MAX_H = 274;
@@ -88,16 +93,12 @@
 
     el("hlrHalf").textContent = days(h);
     el("hlrNote").textContent =
-      `review in ${days(suggested)} to catch it at ${TARGET * 100}% recall`;
+      `model predicts ${TARGET * 100}% recall after ${days(suggested)}`;
 
     const pAtLeitner = recall(leitner, h) * 100;
     el("leitnerWait").textContent = days(leitner);
     el("leitnerNote").textContent =
-      pAtLeitner > 97
-        ? `by then you would still recall it ${pAtLeitner.toFixed(0)}% of the time — the review is wasted`
-        : pAtLeitner < 60
-          ? `by then recall has already fallen to ${pAtLeitner.toFixed(0)}% — you relearn it from scratch`
-          : `recall would be ${pAtLeitner.toFixed(0)}% by then`;
+      `model predicts ${pAtLeitner.toFixed(0)}% recall at that interval`;
 
     draw(h, leitner, suggested);
   }
@@ -116,4 +117,12 @@
 
   ["item", "right", "wrong"].forEach((id) => (el(id).oninput = render));
   render();
-})();
+  ["item", "right", "wrong"].forEach((id) => (el(id).disabled = false));
+  el("loadStatus").textContent = "Model and held-out results loaded.";
+})().catch(() => {
+  document.getElementById("loadStatus").textContent =
+    "Could not load the model and results. Reload this page to try again; no prediction is available.";
+  ["item", "right", "wrong"].forEach((id) => (document.getElementById(id).disabled = true));
+  ["chart", "results", "hlrNote", "leitnerNote"].forEach((id) => (document.getElementById(id).innerHTML = ""));
+  ["hlrHalf", "leitnerWait"].forEach((id) => (document.getElementById(id).textContent = "—"));
+});

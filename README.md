@@ -23,10 +23,9 @@ training and test, so nothing here is scored on someone the model has already me
 The learned model predicts recall with **46% less error than Leitner** and 30% less than simply
 guessing the average. It is also closest on the half-life itself, by about a month.
 
-**One place it does not win.** Leitner edges it on AUC (0.550 vs 0.541). AUC only asks whether
-reviews are *ranked* correctly, and a scheduler does not need a ranking — it needs to know *when*
-recall crosses a threshold, which is a calibration question. That is what MAE measures and what the
-model is fit for. Reporting the metric it loses on seemed more useful than omitting it.
+Leitner has higher AUC (0.550 vs 0.541), which measures ranking. The learned model has lower
+mean absolute error on recall probabilities. MAE is not a separate calibration test, and these
+offline metrics do not establish whether following either schedule improves learning.
 
 ## How it works
 
@@ -88,6 +87,8 @@ the test learners were scored once, at the end.
 `docs/` is a static page that runs the whole prediction in the browser from `model.json` — no
 server, no network call after load. Pick something you are learning, say how it has gone so far,
 and it draws the decay curve, marks when Leitner would review you, and marks when the model would.
+The page labels those values as model predictions and shows the observational-data limitation.
+Controls stay disabled until both data files load; failed loads show an error without a prediction.
 
 ## Data
 

@@ -63,18 +63,20 @@ on <b id="nTest">1.3 million</b> more from learners it had never seen. It schedu
 learned.</p>
 
 <div class="panel">
+  <p id="loadStatus" role="status">Loading the model and held-out results…</p>
+  <noscript><p>Enable JavaScript to use this interactive demonstration.</p></noscript>
   <div class="controls">
     <div>
       <label for="item">Something you are learning</label>
-      <select id="item"></select>
+      <select id="item" disabled></select>
     </div>
     <div>
       <label for="right">Times you recalled it — <span class="val" id="rightVal">4</span></label>
-      <input type="range" id="right" min="0" max="20" value="4">
+      <input type="range" id="right" min="0" max="20" value="4" disabled>
     </div>
     <div>
       <label for="wrong">Times you forgot it — <span class="val" id="wrongVal">1</span></label>
-      <input type="range" id="wrong" min="0" max="20" value="1">
+      <input type="range" id="wrong" min="0" max="20" value="1" disabled>
     </div>
   </div>
 
@@ -104,6 +106,11 @@ learned.</p>
 <p>Held out by learner — no person's reviews appear in both training and test data, so nothing is
 scored on someone the model has already met. Lower error is better.</p>
 <div class="panel"><table id="results"></table></div>
+<p>These are predictions from observational review logs, not evidence that following this schedule
+improves learning. The original app chose when to test each learner. Its scheduling policy can
+affect the fitted weights, including the small negative weight on prior successful recalls.
+The model has lower mean absolute error here; Leitner has higher AUC. Neither comparison proves
+that the displayed interval is best for an individual learner.</p>
 
 <footer>
   <p>Half-life regression after Settles &amp; Meeder, <i>A Trainable Spaced Repetition Model for
