@@ -51,6 +51,19 @@ tr.best td{font-weight:700}
 p{color:var(--dim)}
 footer{margin-top:52px;padding-top:20px;border-top:1px solid var(--line);font-size:13px;color:var(--dim)}
 a{color:var(--learned)}
+button{font:inherit;color:var(--ink);background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:10px 14px;min-height:44px;cursor:pointer}
+button:disabled{opacity:.5;cursor:default}
+button:focus-visible,textarea:focus-visible,select:focus-visible{outline:3px solid var(--learned);outline-offset:3px}
+textarea{width:100%;min-height:88px;resize:vertical;font:inherit;color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:10px}
+.study-fields{display:grid;gap:14px;margin-bottom:14px}
+.study-card{border-top:1px solid var(--line);margin-top:22px;padding-top:18px;overflow-wrap:anywhere}
+.study-card h3{margin:0;font-size:20px}
+.study-card p{margin:8px 0}
+.study-answer{white-space:pre-wrap;color:var(--ink);border-left:3px solid var(--learned);padding-left:12px}
+.study-actions{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
+#studyStatus{font-size:14px;min-height:24px}
+#studyStatus:focus{outline:none}
+@media(min-width:640px){.study-fields{grid-template-columns:1fr 2fr}}
 </style>
 </head>
 <body>
@@ -102,6 +115,24 @@ learned.</p>
   </div>
 </div>
 
+<section aria-labelledby="studyHeading">
+<h2 id="studyHeading">Put a word into practice</h2>
+<p>Add an answer, try recalling it, then record how it went. Your own review counts are separate from the sliders above.</p>
+<div class="panel">
+<form id="studyForm">
+  <div class="study-fields">
+    <div><label for="studyWord">Word from the model</label><select id="studyWord" disabled></select></div>
+    <div><label for="studyAnswer">Your answer or meaning</label><textarea id="studyAnswer" maxlength="2000" required disabled autocomplete="off" placeholder="Write what you want to recall."></textarea></div>
+  </div>
+  <button id="studyAdd" type="submit" disabled>Add study card</button>
+</form>
+<p id="studyStatus" role="status" tabindex="-1">Opening local study storage…</p>
+<div id="studyCards"></div>
+<button id="studyReload" type="button">Reload saved cards</button>
+</div>
+<p>Model times are estimates from other learners' review logs, not proven recommendations. Your cards and review history stay on this device; clearing browser data removes them. Nothing you enter is uploaded.</p>
+</section>
+
 <h2>Does the learned schedule actually predict better?</h2>
 <p>Held out by learner — no person's reviews appear in both training and test data, so nothing is
 scored on someone the model has already met. Lower error is better.</p>
@@ -122,5 +153,6 @@ that the displayed interval is best for an individual learner.</p>
 
 </div>
 <script src="app.js"></script>
+<script type="module" src="study.mjs?v=1"></script>
 </body>
 </html>

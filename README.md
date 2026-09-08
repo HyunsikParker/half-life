@@ -90,6 +90,14 @@ and it draws the decay curve, marks when Leitner would review you, and marks whe
 The page labels those values as model predictions and shows the observational-data limitation.
 Controls stay disabled until both data files load; failed loads show an error without a prediction.
 
+## Study cards
+
+The page also supports a local study loop. Choose a vocabulary item from the model, add your own answer, try recalling it, reveal it, then mark **Recalled** or **Forgot**. Review counts come from these events, not from the demonstration sliders. The card and its history survive a browser restart using IndexedDB on the same device and site. Writes use transactions, and repeated delivery of the same review attempt cannot count twice.
+
+The next displayed time is the frozen model's 90% recall estimate. It is not a demonstrated improvement to learning or a personalized recommendation. Cards are not uploaded or synced; clearing browser data removes them. The local limits are 100 cards and 1,000 reviews per card.
+
+Run the study logic checks with `node --test test/study.test.mjs` (Node 20+). The original model and held-out evaluation are unchanged.
+
 ## Data
 
 Duolingo learning traces, 12,854,226 reviews — Settles & Meeder, *A Trainable Spaced Repetition
