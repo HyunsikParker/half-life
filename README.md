@@ -1,4 +1,5 @@
 # Half-Life
+[Hyperbloom September Top 10](https://devpost.com/software/half-life) · Gen.xyz 1-year custom domain award.
 
 **When will you forget this?** Flashcard apps answer with a fixed rule — get it right, wait twice
 as long. This fits the decay to real review logs instead, and schedules from that.
